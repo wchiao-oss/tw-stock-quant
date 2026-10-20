@@ -61,3 +61,25 @@ path.write_text(
 )
 
 print(f'Wrote {len(items)} listed securities')
+# ===== 儲存每日歷史股價 =====
+
+# 使用證交所提供的交易日期，不使用執行日期
+trade_date = str(items[0]['date'])
+
+# 檢查所有股票是否屬於同一交易日
+if not all(str(stock['date']) == trade_date for stock in items):
+    raise RuntimeError('Inconsistent trading dates')
+
+# 建立歷史資料夾
+history_dir = pathlib.Path('data/history')
+history_dir.mkdir(parents=True, exist_ok=True)
+
+# 每個交易日儲存一個 JSON 檔案
+history_file = history_dir / f'{trade_date}.json'
+
+history_file.write_text(
+    json.dumps(output, ensure_ascii=False, separators=(',', ':')),
+    encoding='utf-8'
+)
+
+print(f'Saved historical data: {history_file}')
