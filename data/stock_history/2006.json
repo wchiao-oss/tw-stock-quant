@@ -1,0 +1,11 @@
+{
+  "stock_id": "2006",
+  "prices": [
+    {
+      "date": "2026-10-20",
+      "close": 90.7,
+      "volume_shares": 1769203.0,
+      "turnover_twd": 159871814.0
+    }
+  ]
+}
