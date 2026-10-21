@@ -19,11 +19,13 @@ def number(value):
 
 
 def normalize_date(value):
-    """支援西元日期及民國日期"""
+    """支援西元、民國日期及純數字日期"""
     text = str(value).strip()
 
     if "-" in text:
-        return datetime.strptime(text, "%Y-%m-%d").date().isoformat()
+        return datetime.strptime(
+            text, "%Y-%m-%d"
+        ).date().isoformat()
 
     if "/" in text:
         year, month, day = map(int, text.split("/"))
@@ -31,7 +33,27 @@ def normalize_date(value):
         if year < 1911:
             year += 1911
 
-        return f"{year:04d}-{month:02d}-{day:02d}"
+        return datetime(
+            year, month, day
+        ).date().isoformat()
+
+    if text.isdigit():
+        if len(text) == 7:
+            year = int(text[:3]) + 1911
+            month = int(text[3:5])
+            day = int(text[5:7])
+
+        elif len(text) == 8:
+            year = int(text[:4])
+            month = int(text[4:6])
+            day = int(text[6:8])
+
+        else:
+            raise ValueError(f"無法辨識日期：{text}")
+
+        return datetime(
+            year, month, day
+        ).date().isoformat()
 
     raise ValueError(f"無法辨識日期：{text}")
 
@@ -79,7 +101,6 @@ def main():
 
         prices = history.get("prices", [])
 
-        # 相同交易日只保留一筆，避免重複累積
         prices = [
             row for row in prices
             if row.get("date") != trade_date
