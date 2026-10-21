@@ -8,13 +8,20 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: twse-history-write
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -23,15 +30,48 @@ jobs:
 
       - name: Fetch TWSE data
         run: python scripts/update.py
+
       - name: Sync stock history
         run: python scripts/sync_history.py
 
       - name: Calculate technical indicators
         run: python scripts/indicators.py
+
       - name: Commit updated data
+        shell: bash
         run: |
+          set -e
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add data/
-          git diff --cached --quiet || git commit -m "Update TWSE daily prices"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "沒有新資料需要提交"
+            exit 0
+          fi
+
+          git commit -m "Update TWSE daily prices"
+
+          for attempt in 1 2 3; do
+            echo "第 ${attempt} 次嘗試提交"
+
+            git fetch origin main
+
+            if git rebase origin/main; then
+              if git push origin HEAD:main; then
+                echo "每日資料更新成功"
+                exit 0
+              fi
+            else
+              echo "偵測到版本衝突，停止提交以保護資料"
+              git rebase --abort || true
+              exit 1
+            fi
+
+            sleep 5
+          done
+
+          echo "提交失敗，請檢查執行紀錄"
+          exit 1
