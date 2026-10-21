@@ -23,7 +23,11 @@ jobs:
 
       - name: Fetch TWSE data
         run: python scripts/update.py
+      - name: Sync stock history
+        run: python scripts/sync_history.py
 
+      - name: Calculate technical indicators
+        run: python scripts/indicators.py
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
