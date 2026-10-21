@@ -22,8 +22,10 @@ def read_json(path):
 
 
 def save_json(path, data):
-    with open(path, "w", encoding="utf-8") as f:
+    temp_path = path + ".tmp"
+    with open(temp_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+    os.replace(temp_path, path)
 
 
 def parse_date(value):
@@ -45,7 +47,6 @@ def parse_date(value):
                 int(text[3:5]),
                 int(text[5:7])
             )
-
         if len(text) == 8:
             return date(
                 int(text[:4]),
@@ -102,9 +103,10 @@ def fetch_month(code, month):
     for item in result.get("data", []):
         try:
             trading_date = parse_date(item[0]).isoformat()
-            close = float(
-                str(item[6]).replace(",", "")
-            )
+            close = float(str(item[6]).replace(",", ""))
+
+            if close <= 0:
+                continue
 
             rows.append({
                 "date": trading_date,
@@ -125,31 +127,34 @@ def load_history(code):
 
     existing = read_json(path)
 
-    if isinstance(existing, list):
-        return existing, path
-
     if isinstance(existing, dict):
-        for key in ("history", "prices", "data"):
-            if isinstance(existing.get(key), list):
-                return existing[key], path
+        if str(existing.get("stock_id", code)) != code:
+            raise ValueError("股票代碼不一致")
+
+        prices = existing.get("prices")
+
+        if isinstance(prices, list):
+            return prices, path
+
+        raise ValueError("原有資料缺少 prices 欄位")
 
     raise ValueError(
-        f"{code} 的歷史資料格式不支援，請先檢查"
+        "原有歷史資料不是預期格式，為保護資料已停止處理"
     )
 
 
 def main():
     latest = read_json(LATEST_FILE)
     stocks = latest.get("stocks", [])
-
     months = get_months(MONTHS)
 
     completed = 0
     skipped = 0
     failed = 0
+    attempted = 0
 
     print(f"找到 {len(stocks)} 檔股票")
-    print(f"本次最多回補 {BATCH_SIZE} 檔")
+    print(f"本次最多處理 {BATCH_SIZE} 檔")
 
     for stock in stocks:
         code = str(stock.get("code", "")).strip()
@@ -160,20 +165,35 @@ def main():
         try:
             history, path = load_history(code)
 
-            if len(history) >= MIN_DAYS:
-                skipped += 1
-                continue
-
-            if completed + failed >= BATCH_SIZE:
-                break
-
-            print(f"開始回補 {code}")
-
             merged = {}
 
             for row in history:
-                if isinstance(row, dict) and row.get("date"):
-                    merged[str(row["date"])] = row
+                if not isinstance(row, dict):
+                    continue
+
+                try:
+                    day = parse_date(row["date"]).isoformat()
+                    close = float(row["close"])
+
+                    if close > 0:
+                        merged[day] = {
+                            "date": day,
+                            "close": close
+                        }
+                except (KeyError, ValueError, TypeError):
+                    continue
+
+            if len(merged) >= MIN_DAYS:
+                skipped += 1
+                continue
+
+            if attempted >= BATCH_SIZE:
+                break
+
+            attempted += 1
+            print(f"開始回補 {code}")
+
+            fetched_months = 0
 
             for month in months:
                 try:
@@ -182,9 +202,8 @@ def main():
                     for row in rows:
                         merged[row["date"]] = row
 
-                    print(
-                        f"  {month[:6]}：{len(rows)} 筆"
-                    )
+                    fetched_months += 1
+                    print(f"  {month[:6]}：{len(rows)} 筆")
 
                 except Exception as error:
                     print(f"  {month[:6]} 失敗：{error}")
@@ -196,8 +215,12 @@ def main():
                 for key in sorted(merged)
             ]
 
-            if len(result) >= 60:
-                save_json(path, result)
+            if len(result) >= 60 and fetched_months > 0:
+                save_json(path, {
+                    "stock_id": code,
+                    "prices": result
+                })
+
                 completed += 1
                 print(
                     f"完成 {code}：{len(result)} 個交易日"
@@ -205,7 +228,9 @@ def main():
             else:
                 failed += 1
                 print(
-                    f"略過 {code}：只有 {len(result)} 筆"
+                    f"未完成 {code}："
+                    f"{len(result)} 筆，"
+                    f"成功取得 {fetched_months} 個月份"
                 )
 
         except Exception as error:
