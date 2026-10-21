@@ -15,11 +15,13 @@ concurrency:
 jobs:
   backfill:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -33,14 +35,54 @@ jobs:
         run: python scripts/indicators.py
 
       - name: Commit updated history and indicators
+        shell: bash
         run: |
+          set -e
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add data/stock_history/ data/indicators.json
+
           if git diff --cached --quiet; then
             echo "沒有新資料需要提交"
-          else
-            git commit -m "Update TWSE history and indicators"
-            git pull --rebase origin main
-            git push origin HEAD:main
+            exit 0
           fi
+
+          git commit -m "Update TWSE history and indicators"
+
+          for attempt in 1 2 3; do
+            echo "第 ${attempt} 次嘗試儲存資料"
+
+            git fetch origin main
+
+            if git rebase origin/main; then
+              if git push origin HEAD:main; then
+                echo "資料儲存成功"
+                exit 0
+              fi
+            else
+              echo "偵測到資料版本衝突，重新產生技術指標"
+
+              git rebase --abort || true
+
+              git reset --soft origin/main
+              git reset
+
+              python scripts/indicators.py
+
+              git add data/stock_history/ data/indicators.json
+
+              if git diff --cached --quiet; then
+                echo "最新版本已包含資料"
+                exit 0
+              fi
+
+              git commit -m "Update TWSE history and indicators"
+            fi
+
+            sleep 5
+          done
+
+          echo "資料提交失敗，請檢查執行紀錄"
+          exit 1
