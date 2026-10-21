@@ -29,15 +29,18 @@ jobs:
       - name: Backfill stock history
         run: python scripts/backfill_all.py
 
-      - name: Commit updated history
+      - name: Calculate technical indicators
+        run: python scripts/indicators.py
+
+      - name: Commit updated history and indicators
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/stock_history/
+          git add data/stock_history/ data/indicators.json
           if git diff --cached --quiet; then
-            echo "沒有新的歷史資料需要提交"
+            echo "沒有新資料需要提交"
           else
-            git commit -m "Backfill TWSE stock history"
+            git commit -m "Update TWSE history and indicators"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
