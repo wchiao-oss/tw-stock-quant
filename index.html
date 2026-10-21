@@ -11,6 +11,28 @@
 <h4>已儲存策略</h4><div id="saved"></div></div>
 <div class="card"><h3>📋 掃描結果</h3><div id="results">按「執行掃描」開始。</div></div>
 <script>
+let realIndicators = {};
+
+async function loadIndicators() {
+  try {
+    const response = await fetch(
+      'data/indicators.json?t=' + Date.now()
+    );
+
+    if (!response.ok) {
+      throw new Error('資料讀取失敗');
+    }
+
+    const data = await response.json();
+    realIndicators = data.stocks || {};
+
+    console.log('技術指標已載入', Object.keys(realIndicators).length);
+  } catch (error) {
+    console.error('技術指標載入失敗', error);
+  }
+}
+
+loadIndicators();
 const stocks=[{id:'2330',name:'台積電',price:1000},{id:'2317',name:'鴻海',price:210},{id:'2454',name:'聯發科',price:1300},{id:'2303',name:'聯電',price:48},{id:'2603',name:'長榮',price:185},{id:'2881',name:'富邦金',price:90},{id:'2382',name:'廣達',price:275},{id:'3037',name:'欣興',price:160}];
 let strategies=[];try{strategies=JSON.parse(localStorage.getItem('twStrategies')||'[]');if(!Array.isArray(strategies))strategies=[]}catch{strategies=[]}
 const $=id=>document.getElementById(id);function generate(){stocks.forEach(s=>{s.change=Math.round((Math.random()-.5)*120)/10;s.amount=Math.round(20+Math.random()*800);s.mid=s.price*(.97+Math.random()*.06);s.upper=s.mid*1.06;s.lower=s.mid*.94;s.rsi6=Math.round(Math.random()*100);s.rsi14=Math.round(Math.random()*100)});$('tiles').innerHTML=stocks.map(s=>`<div class="tile ${s.change>0?'up':s.change<0?'down':'flat'}"><strong>${s.id} ${s.name}</strong><br>${s.change>0?'+':''}${s.change}%<br><small>成交 ${s.amount} 百萬</small></div>`).join('')}
@@ -19,6 +41,38 @@ function valid(s){return s.name&&Number.isFinite(s.threshold)&&s.threshold>=0&&s
 function persist(){try{localStorage.setItem('twStrategies',JSON.stringify(strategies))}catch{$('msg').textContent='此瀏覽器無法永久儲存，請勿依賴保存。'}renderSaved()}
 function renderSaved(){$('saved').innerHTML='';strategies.forEach((s,i)=>{const d=document.createElement('div');d.className='row';const label=document.createElement('span');label.textContent=s.name+'（'+s.mode+'）';const load=document.createElement('button');load.textContent='載入';load.addEventListener('click',()=>{['name','mode','bb','period','op','threshold'].forEach(k=>$(k).value=s[k]);$('msg').textContent='已載入 '+s.name});const del=document.createElement('button');del.textContent='刪除';del.addEventListener('click',()=>{strategies.splice(i,1);persist()});d.append(label,load,del);$('saved').append(d)})}
 $('save').addEventListener('click',()=>{const s=current();if(!valid(s)){ $('msg').textContent='請輸入策略名稱及 0–100 的 RSI 門檻';return}const i=strategies.findIndex(x=>x.name===s.name);if(i>=0)strategies[i]=s;else strategies.push(s);persist();$('msg').textContent='策略已儲存於此瀏覽器（同名覆蓋）'});
-$('scan').addEventListener('click',()=>{const s=current();if(!valid(s)){$('msg').textContent='請先輸入有效條件';return}const found=stocks.filter(x=>{const b=s.bb==='none'?null:s.bb==='below'?x.price<x.lower:s.bb==='above'?x.price>x.upper:x.price>x.mid;const r=s.op==='lt'?x['rsi'+s.period]<s.threshold:x['rsi'+s.period]>s.threshold;return b===null?r:s.mode==='AND'?b&&r:b||r});$('results').innerHTML=found.length?'<table><tr><th>股票</th><th>RSI('+s.period+')</th><th>模擬漲跌</th></tr>'+found.map(x=>`<tr><td>${x.id} ${x.name}</td><td>${x['rsi'+s.period]}</td><td>${x.change}%</td></tr>`).join('')+'</table>':'目前模擬資料無符合股票';$('msg').textContent='已用 '+s.mode+' 掃描 '+stocks.length+' 檔示範股票'});
+$('scan').addEventListener('click',()=>{
+const s=current();
+if(!valid(s)){
+$('msg').textContent='請先輸入有效條件';
+return;
+}
+
+const scanStocks = Object.values(realIndicators);
+
+const found=scanStocks.filter(x=>{
+const price=Number(x.close);
+const bb=x.bollinger||{};
+const rsi=Number(x['rsi'+s.period]);
+
+if(!Number.isFinite(price)||!Number.isFinite(rsi))return false;
+
+let b=null;
+if(s.bb==='below')b=price<Number(bb.lower);
+if(s.bb==='above')b=price>Number(bb.upper);
+if(s.bb==='middle')b=price>Number(bb.middle);
+
+const r=s.op==='lt'?rsi<s.threshold:rsi>s.threshold;
+
+return b===null?r:s.mode==='AND'?b&&r:b||r;
+});
+
+$('results').innerHTML=found.length?
+'<table><tr><th>股票</th><th>收盤價</th><th>RSI</th></tr>'+
+found.map(x=>`<tr><td>${x.stock_id}</td><td>${x.close}</td><td>${x['rsi'+s.period]}</td></tr>`).join('')+
+'</table>':'目前沒有符合條件的股票';
+
+$('msg').textContent='已使用真實技術指標掃描 '+stocks.length+' 檔股票';
+});
 $('refresh').addEventListener('click',()=>{generate();$('results').textContent='模擬資料已更新，請重新掃描。'});generate();renderSaved();
 </script></html>
