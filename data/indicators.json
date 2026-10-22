@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T02:39:20.669936+08:00",
+  "generated_at": "2026-10-22T15:54:06.508784+08:00",
   "stocks": {
     "0050": {
       "stock_id": "0050",
@@ -1628,17 +1628,42 @@
     },
     "2317": {
       "stock_id": "2317",
-      "date": "2026-10-20",
-      "trading_days": 242,
-      "close": 241.5,
-      "ma20": 248.5,
-      "ma60": 250.45,
-      "rsi6": 41.2965,
-      "rsi14": 42.5995,
+      "date": "2026-10-21",
+      "trading_days": 243,
+      "close": 250.0,
+      "ma20": 248.475,
+      "ma60": 250.4083,
+      "rsi6": 61.0461,
+      "rsi14": 52.4869,
       "bollinger": {
-        "upper": 259.3167,
-        "middle": 248.5,
-        "lower": 237.6833
+        "upper": 259.2753,
+        "middle": 248.475,
+        "lower": 237.6747
+      },
+      "signals": {
+        "above_upper": false,
+        "below_lower": false,
+        "above_ma20": true,
+        "above_ma60": false,
+        "rsi6_below_20": false,
+        "rsi6_above_80": false,
+        "rsi14_below_20": false,
+        "rsi14_above_80": false
+      }
+    },
+    "2330": {
+      "stock_id": "2330",
+      "date": "2026-10-21",
+      "trading_days": 243,
+      "close": 2420.0,
+      "ma20": 2490.0,
+      "ma60": 2422.6667,
+      "rsi6": 30.281,
+      "rsi14": 42.4261,
+      "bollinger": {
+        "upper": 2597.6569,
+        "middle": 2490.0,
+        "lower": 2382.3431
       },
       "signals": {
         "above_upper": false,
@@ -1651,44 +1676,19 @@
         "rsi14_above_80": false
       }
     },
-    "2330": {
-      "stock_id": "2330",
-      "date": "2026-10-20",
-      "trading_days": 242,
-      "close": 2405.0,
-      "ma20": 2492.0,
-      "ma60": 2421.5,
-      "rsi6": 19.8593,
-      "rsi14": 39.4842,
-      "bollinger": {
-        "upper": 2595.7979,
-        "middle": 2492.0,
-        "lower": 2388.2021
-      },
-      "signals": {
-        "above_upper": false,
-        "below_lower": false,
-        "above_ma20": false,
-        "above_ma60": false,
-        "rsi6_below_20": true,
-        "rsi6_above_80": false,
-        "rsi14_below_20": false,
-        "rsi14_above_80": false
-      }
-    },
     "2454": {
       "stock_id": "2454",
-      "date": "2026-10-20",
-      "trading_days": 242,
-      "close": 4150.0,
-      "ma20": 4756.75,
-      "ma60": 4285.0,
-      "rsi6": 21.851,
-      "rsi14": 37.1477,
+      "date": "2026-10-21",
+      "trading_days": 243,
+      "close": 4140.0,
+      "ma20": 4728.25,
+      "ma60": 4291.5,
+      "rsi6": 21.4534,
+      "rsi14": 36.9086,
       "bollinger": {
-        "upper": 5460.8968,
-        "middle": 4756.75,
-        "lower": 4052.6032
+        "upper": 5482.0489,
+        "middle": 4728.25,
+        "lower": 3974.4511
       },
       "signals": {
         "above_upper": false,
