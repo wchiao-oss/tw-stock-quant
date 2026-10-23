@@ -1,59 +1,457 @@
+
 <!doctype html>
 <html lang="zh-Hant">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>台股量化選股｜布林 × RSI</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>台股量化選股｜技術 × 法人籌碼</title>
 <style>
-:root{color-scheme:dark;--bg:#0b1220;--panel:#172338;--line:#30415b;--text:#f2f6ff;--muted:#aebdd1;--accent:#66dfc3}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Noto Sans TC',sans-serif;line-height:1.55}main{max-width:1100px;margin:auto;padding:22px 14px 65px}h1{font-size:26px;margin:4px 0 2px}h2{font-size:17px;margin:0 0 12px}p{margin:7px 0;color:var(--muted)}.eyebrow{color:var(--accent);font-weight:700;letter-spacing:.1em;font-size:12px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px;margin-top:16px}.meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}.chip{background:#24354e;border:1px solid #3c536e;border-radius:999px;padding:6px 12px;font-size:13px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.group{border:1px solid var(--line);padding:13px;border-radius:12px}.group label{display:flex;align-items:center;gap:8px;margin:9px 0;font-size:14px}.group input[type=checkbox]{accent-color:var(--accent);width:17px;height:17px;flex-shrink:0}.group input[type=number]{width:72px}.row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}input[type=number],input[type=search],select{background:#0c192b;color:var(--text);border:1px solid #50617b;border-radius:9px;padding:8px;font-size:15px}input[type=search]{width:100%;max-width:270px}.toolbar{display:flex;gap:12px;flex-wrap:wrap;align-items:center}button{border:0;border-radius:10px;padding:11px 17px;background:var(--accent);color:#092119;font-size:15px;font-weight:750;cursor:pointer}button.secondary{background:#354660;color:white}button:disabled{opacity:.5;cursor:not-allowed}.small{font-size:12px}.warn{color:#ffd394}.error{color:#ffb4b4}.tablewrap{overflow-x:auto;margin-top:14px}table{border-collapse:collapse;width:100%;min-width:760px;font-variant-numeric:tabular-nums}th,td{text-align:right;padding:10px 8px;border-bottom:1px solid #2d4058;font-size:13px}th:first-child,td:first-child{text-align:left}th{color:#bfd1e5;font-weight:600;white-space:nowrap}td{white-space:nowrap}a{color:#82e6d1}.empty{text-align:center;padding:25px;color:var(--muted)}.foot{font-size:12px;margin-top:15px}@media(max-width:650px){.grid{grid-template-columns:1fr}h1{font-size:23px}.panel{padding:14px}}
+:root{color-scheme:dark;--bg:#0b1220;--panel:#172338;--line:#30415b;--text:#f2f6ff;--muted:#aebdd1;--accent:#66dfc3}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Noto Sans TC',sans-serif;line-height:1.55}
+main{max-width:1150px;margin:auto;padding:22px 14px 65px}
+h1{font-size:26px;margin:4px 0 2px}
+h2{font-size:17px;margin:0 0 12px}
+p{margin:7px 0;color:var(--muted)}
+.eyebrow{color:var(--accent);font-weight:700;letter-spacing:.1em;font-size:12px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px;margin-top:16px}
+.meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}
+.chip{background:#24354e;border:1px solid #3c536e;border-radius:999px;padding:6px 12px;font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.group{border:1px solid var(--line);padding:13px;border-radius:12px}
+.group label{display:flex;align-items:center;gap:8px;margin:9px 0;font-size:14px;flex-wrap:wrap}
+.group input[type=checkbox]{accent-color:var(--accent);width:17px;height:17px;flex-shrink:0}
+.row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+input[type=number],input[type=search],input[type=text],select{background:#0c192b;color:var(--text);border:1px solid #50617b;border-radius:9px;padding:8px;font-size:15px;max-width:100%}
+input[type=number]{width:80px}
+input[type=search]{width:100%;max-width:270px}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+button{border:0;border-radius:10px;padding:11px 15px;background:var(--accent);color:#092119;font-size:14px;font-weight:750;cursor:pointer}
+button.secondary{background:#354660;color:white}
+button:disabled{opacity:.5;cursor:not-allowed}
+.small{font-size:12px}
+.warn{color:#ffd394}
+.error{color:#ffb4b4}
+.tablewrap{overflow-x:auto;margin-top:14px}
+table{border-collapse:collapse;width:100%;min-width:1100px;font-variant-numeric:tabular-nums}
+th,td{text-align:right;padding:10px 8px;border-bottom:1px solid #2d4058;font-size:13px}
+th:first-child,td:first-child{text-align:left}
+th{color:#bfd1e5;font-weight:600;white-space:nowrap}
+td{white-space:nowrap}
+.empty{text-align:center;padding:25px;color:var(--muted)}
+.foot{font-size:12px;margin-top:15px}
+.pos{color:#82e6d1}
+.neg{color:#ffb4b4}
+@media(max-width:650px){.grid{grid-template-columns:1fr}h1{font-size:23px}.panel{padding:14px}}
 </style>
 </head>
-<body><main>
-<div class="eyebrow">TW STOCK QUANT · DAILY SCREENER</div><h1>📈 台股量化選股</h1><p>布林通道 × RSI × 均線｜自由勾選條件，適合 iPhone 操作</p>
-<div class="meta"><span class="chip" id="updated">資料載入中…</span><span class="chip" id="total">可分析：—</span><span class="chip" id="matches">符合：—</span></div>
-<section class="panel"><h2>① 選股條件</h2><div class="grid">
-<div class="group"><strong>布林通道（以收盤價判斷）</strong>
+<body>
+<main>
+<div class="eyebrow">TW STOCK QUANT · DAILY SCREENER</div>
+<h1>📈 台股量化選股</h1>
+<p>布林通道 × RSI × 均線 × 法人籌碼｜適合 iPhone 操作</p>
+
+<div class="meta">
+<span class="chip" id="updated">技術資料載入中…</span>
+<span class="chip" id="chipUpdated">法人資料載入中…</span>
+<span class="chip" id="total">可分析：—</span>
+<span class="chip" id="matches">符合：—</span>
+</div>
+
+<section class="panel">
+<h2>① 選股條件</h2>
+<div class="grid">
+
+<div class="group">
+<strong>布林通道（收盤價）</strong>
 <label><input type="checkbox" data-filter="aboveUpper">高於上軌</label>
 <label><input type="checkbox" data-filter="belowLower">低於下軌</label>
 <label><input type="checkbox" data-filter="aboveMiddle">高於中軌</label>
 <label><input type="checkbox" data-filter="belowMiddle">低於中軌</label>
-<label><input type="checkbox" data-filter="nearLower">接近下軌（± <input type="number" id="nearPct" value="2" min="0" max="100" step="0.5" aria-label="距下軌百分比"> %）</label>
+<label><input type="checkbox" data-filter="nearLower">接近下軌（± <input type="number" id="nearPct" value="2" min="0" max="100" step="0.5"> %）</label>
 </div>
-<div class="group"><strong>RSI（自訂門檻）</strong>
-<label><input type="checkbox" data-filter="rsi6Below">RSI(6) &lt; <input type="number" id="rsi6Low" value="20" min="0" max="100" step="1" aria-label="RSI6低於"></label>
-<label><input type="checkbox" data-filter="rsi6Above">RSI(6) &gt; <input type="number" id="rsi6High" value="80" min="0" max="100" step="1" aria-label="RSI6高於"></label>
-<label><input type="checkbox" data-filter="rsi14Below">RSI(14) &lt; <input type="number" id="rsi14Low" value="20" min="0" max="100" step="1" aria-label="RSI14低於"></label>
-<label><input type="checkbox" data-filter="rsi14Above">RSI(14) &gt; <input type="number" id="rsi14High" value="80" min="0" max="100" step="1" aria-label="RSI14高於"></label>
+
+<div class="group">
+<strong>RSI（自訂門檻）</strong>
+<label><input type="checkbox" data-filter="rsi6Below">RSI(6) &lt; <input type="number" id="rsi6Low" value="20" min="0" max="100"></label>
+<label><input type="checkbox" data-filter="rsi6Above">RSI(6) &gt; <input type="number" id="rsi6High" value="80" min="0" max="100"></label>
+<label><input type="checkbox" data-filter="rsi14Below">RSI(14) &lt; <input type="number" id="rsi14Low" value="20" min="0" max="100"></label>
+<label><input type="checkbox" data-filter="rsi14Above">RSI(14) &gt; <input type="number" id="rsi14High" value="80" min="0" max="100"></label>
 </div>
-<div class="group"><strong>均線</strong>
+
+<div class="group">
+<strong>均線</strong>
 <label><input type="checkbox" data-filter="aboveMA20">收盤價高於 MA20（月線）</label>
 <label><input type="checkbox" data-filter="belowMA20">收盤價低於 MA20（月線）</label>
 <label><input type="checkbox" data-filter="aboveMA60">收盤價高於 MA60（季線）</label>
 <label><input type="checkbox" data-filter="belowMA60">收盤價低於 MA60（季線）</label>
 </div>
-<div class="group"><strong>條件組合</strong><p class="small">AND：所有勾選條件都符合。OR：符合任一條件即可。</p>
-<label class="row">組合方式 <select id="mode"><option value="and">AND（全部符合）</option><option value="or">OR（符合其中一項）</option></select></label>
-<label class="row">股票代碼搜尋 <input type="search" id="search" placeholder="例如 2330"></label>
-<label><input type="checkbox" id="latestOnly" checked>只看最新交易日期的資料</label>
-</div></div>
-<div class="toolbar" style="margin-top:16px"><button id="apply">開始選股</button><button id="reset" class="secondary">清除條件</button><button id="reload" class="secondary">重新讀取資料</button></div>
-<p id="status" role="status" class="small">正在取得資料…</p></section>
-<section class="panel"><h2>② 選股結果</h2><p class="small">未勾選條件時，顯示目前可分析的股票。表格可左右滑動。</p><div class="tablewrap"><table><thead><tr><th>代碼</th><th>資料日期</th><th>收盤價</th><th>RSI(6)</th><th>RSI(14)</th><th>布林上軌</th><th>中軌</th><th>下軌</th><th>MA20</th><th>MA60</th></tr></thead><tbody id="results"><tr><td colspan="10" class="empty">載入中…</td></tr></tbody></table></div><p id="resultInfo" class="small"></p></section>
-<p class="foot">資料來源：專案 data/indicators.json（證交所歷史收盤價衍生指標）。非即時行情；條件使用最新收盤價與已計算指標，並非盤中突破訊號。回補中的股票可能尚未列入。僅供研究，不構成投資建議。</p>
-</main><script>
+
+<div class="group">
+<strong>法人籌碼（買賣超）</strong>
+<label><input type="checkbox" data-filter="foreignToday">外資當日買超</label>
+<label><input type="checkbox" data-filter="trustToday">投信當日買超</label>
+<label><input type="checkbox" data-filter="bothToday">外資＋投信當日同步買超</label>
+<label><input type="checkbox" data-filter="foreignSum">外資近 <select id="foreignDays"><option>3</option><option>5</option><option>10</option></select> 個交易日累計買超</label>
+<label><input type="checkbox" data-filter="trustSum">投信近 <select id="trustDays"><option>3</option><option>5</option><option>10</option></select> 個交易日累計買超</label>
+<label><input type="checkbox" data-filter="bothSum">外資＋投信近 <select id="bothDays"><option>3</option><option>5</option><option>10</option></select> 日各自累計買超</label>
+<p class="small">必須有足夠且連續的市場交易日資料才會通過累計條件；缺資料不視為零。</p>
+</div>
+
+<div class="group">
+<strong>條件組合</strong>
+<p class="small">AND：全部符合；OR：符合任一條件。</p>
+<label>組合方式 <select id="mode"><option value="and">AND（全部符合）</option><option value="or">OR（符合任一項）</option></select></label>
+<label>股票代碼搜尋 <input type="search" id="search" placeholder="例如 2330"></label>
+<label><input type="checkbox" id="latestOnly" checked>只看最新技術資料日</label>
+<label><input type="checkbox" id="sameDate" checked>法人與股價必須同一天</label>
+</div>
+
+<div class="group">
+<strong>我的選股策略（儲存在本機瀏覽器）</strong>
+<label>策略名稱 <input type="text" id="strategyName" placeholder="例如 法人低檔吸籌" maxlength="50"></label>
+<div class="toolbar">
+<button id="saveStrategy">儲存策略</button>
+<button id="deleteStrategy" class="secondary">刪除選取策略</button>
+</div>
+<label>已儲存策略 <select id="strategies"><option value="">請選擇策略</option></select></label>
+<button id="loadStrategy" class="secondary">載入策略</button>
+<p class="small">清除瀏覽器網站資料或換裝置後，儲存策略可能不會保留。</p>
+</div>
+
+</div>
+<div class="toolbar" style="margin-top:16px">
+<button id="apply">開始選股</button>
+<button id="reset" class="secondary">清除條件</button>
+<button id="reload" class="secondary">重新讀取資料</button>
+</div>
+<p id="status" role="status" class="small">正在取得資料…</p>
+</section>
+
+<section class="panel">
+<h2>② 選股結果</h2>
+<p class="small">表格可左右滑動。法人數字單位為「張」（1 張＝1,000 股）；「—」代表無法確認資料。</p>
+<div class="tablewrap">
+<table>
+<thead><tr>
+<th>代碼</th><th>技術日期</th><th>收盤價</th>
+<th>RSI(6)</th><th>RSI(14)</th>
+<th>布林上軌</th><th>中軌</th><th>下軌</th>
+<th>MA20</th><th>MA60</th><th>法人日期</th>
+<th>外資當日(張)</th><th>投信當日(張)</th>
+<th>外資5日(張)</th><th>投信5日(張)</th>
+</tr></thead>
+<tbody id="results"><tr><td colspan="15" class="empty">載入中…</td></tr></tbody>
+</table>
+</div>
+<p id="resultInfo" class="small"></p>
+</section>
+
+<p class="foot">來源：專案 data/indicators.json 與 data/chip_history.json。法人買賣超為淨買賣股數，不代表持股總量；歷史資料可能延遲、缺漏。此版本使用全體條件 AND／OR，尚未支援巢狀群組或回測。非即時行情，僅供研究，不構成投資建議。</p>
+</main>
+
+<script>
 'use strict';
-let stocks=[],latestDate='';
+
+let stocks=[],latestDate='',chipHistory={},chipDates=[],chipLatest='',chipError='';
+
 const $=id=>document.getElementById(id);
-const num=(value,d=2)=>Number.isFinite(Number(value))?Number(value).toLocaleString('zh-TW',{maximumFractionDigits:d}):'—';
-const getNum=(id)=>{const el=$(id),n=Number(el.value);return el.value.trim()!==''&&Number.isFinite(n)&&n>=0&&n<=100?n:null};
-function testCondition(key,s){const c=Number(s.close),b=s.bollinger||{},u=Number(b.upper),m=Number(b.middle),l=Number(b.lower),ma20=Number(s.ma20),ma60=Number(s.ma60),r6=Number(s.rsi6),r14=Number(s.rsi14);const valid=x=>Number.isFinite(x)&&x>0;const threshold=id=>getNum(id);switch(key){
-case'aboveUpper':return valid(u)&&c>u;case'belowLower':return valid(l)&&c<l;case'aboveMiddle':return valid(m)&&c>m;case'belowMiddle':return valid(m)&&c<m;
-case'nearLower':return valid(l)&&threshold('nearPct')!==null&&Math.abs(c-l)/l*100<=threshold('nearPct');
-case'rsi6Below':return Number.isFinite(r6)&&threshold('rsi6Low')!==null&&r6<threshold('rsi6Low');
-case'rsi6Above':return Number.isFinite(r6)&&threshold('rsi6High')!==null&&r6>threshold('rsi6High');
-case'rsi14Below':return Number.isFinite(r14)&&threshold('rsi14Low')!==null&&r14<threshold('rsi14Low');
-case'rsi14Above':return Number.isFinite(r14)&&threshold('rsi14High')!==null&&r14>threshold('rsi14High');
-case'aboveMA20':return valid(ma20)&&c>ma20;case'belowMA20':return valid(ma20)&&c<ma20;case'aboveMA60':return valid(ma60)&&c>ma60;case'belowMA60':return valid(ma60)&&c<ma60;default:return false}}
-function render(){const filters=[...document.querySelectorAll('[data-filter]:checked')].map(el=>el.dataset.filter),mode=$('mode').value,query=$('search').value.trim().toLowerCase();const base=stocks.filter(s=>(!$('latestOnly').checked||s.date===latestDate)&&(!query||String(s.stock_id).toLowerCase().includes(query)));const chosen=base.filter(s=>!filters.length||(mode==='and'?filters.every(f=>testCondition(f,s)):filters.some(f=>testCondition(f,s))));$('matches').textContent=`符合：${chosen.length} 檔`;$('resultInfo').textContent=`目前顯示 ${chosen.length} 檔／篩選前 ${base.length} 檔；最新資料日 ${latestDate||'—'}`;const tbody=$('results');tbody.replaceChildren();if(!chosen.length){const tr=document.createElement('tr'),td=document.createElement('td');td.colSpan=10;td.className='empty';td.textContent='沒有符合條件的股票。可放寬條件，或取消「只看最新交易日期」。';tr.append(td);tbody.append(tr);return}const fragment=document.createDocumentFragment();for(const s of chosen){const tr=document.createElement('tr');const fields=[s.stock_id,s.date,s.close,s.rsi6,s.rsi14,s.bollinger?.upper,s.bollinger?.middle,s.bollinger?.lower,s.ma20,s.ma60];fields.forEach((v,i)=>{const td=document.createElement('td');td.textContent=i===0||i===1?String(v??'—'):num(v,4);tr.append(td)});fragment.append(tr)}tbody.append(fragment)}
-async function load(){const status=$('status');status.className='small';status.textContent='正在讀取 data/indicators.json…';try{const response=await fetch(`./data/indicators.json?t=${Date.now()}`,{cache:'no-store'});if(!response.ok)throw Error(`HTTP ${response.status}`);const json=await response.json();if(!json.stocks||typeof json.stocks!=='object')throw Error('找不到 stocks 欄位');stocks=Object.entries(json.stocks).filter(([,s])=>s&&s.stock_id&&s.date&&Number.isFinite(Number(s.close))).map(([,s])=>s);latestDate=stocks.reduce((max,s)=>s.date>max?s.date:max,'');$('updated').textContent=`檔案更新：${json.generated_at?String(json.generated_at).replace('T',' ').slice(0,16):'未知'}`;$('total').textContent=`可分析：${stocks.length} 檔`;status.textContent=`載入成功，共 ${stocks.length} 檔；最新資料日期 ${latestDate||'—'}。`;render()}catch(e){stocks=[];latestDate='';$('updated').textContent='資料讀取失敗';$('total').textContent='可分析：0 檔';status.className='small error';status.textContent=`讀取失敗：${e.message}。請確認 screener.html 放在專案根目錄，且 data/indicators.json 已上傳至同一分支。`;render()}}
-$('apply').addEventListener('click',render);$('reset').addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(el=>el.checked=false);$('mode').value='and';$('search').value='';$('latestOnly').checked=true;render()});$('reload').addEventListener('click',load);$('search').addEventListener('input',render);$('latestOnly').addEventListener('change',render);$('mode').addEventListener('change',render);load();
-</script></body></html>
+const finite=v=>v!==null&&v!==undefined&&v!==''&&Number.isFinite(Number(v));
+const number=v=>finite(v)?Number(v):null;
+const fmt=(v,d=2)=>finite(v)?Number(v).toLocaleString('zh-TW',{maximumFractionDigits:d}):'—';
+const getNum=id=>{
+  const el=$(id),n=Number(el.value);
+  return el.value.trim()!==''&&Number.isFinite(n)&&n>=0&&n<=100?n:null;
+};
+const filters=()=>[...document.querySelectorAll('[data-filter]:checked')].map(el=>el.dataset.filter);
+const chipKeys=new Set(['foreignToday','trustToday','bothToday','foreignSum','trustSum','bothSum']);
+
+function latestChipFor(s){
+  const dates=chipDates.filter(d=>d<=s.date&&chipHistory[d]?.[String(s.stock_id)]);
+  if(!dates.length)return null;
+  const date=dates[dates.length-1];
+  return {date,record:chipHistory[date][String(s.stock_id)]};
+}
+
+function cumulative(s,kind,days){
+  const current=latestChipFor(s);
+  if(!current)return null;
+  const eligible=chipDates.filter(d=>d<=current.date);
+  if(eligible.length<days)return null;
+  const selected=eligible.slice(-days);
+  let sum=0;
+  for(const d of selected){
+    const record=chipHistory[d]?.[String(s.stock_id)];
+    const value=number(record?.[kind]);
+    if(value===null)return null;
+    sum+=value;
+  }
+  return sum;
+}
+
+function chipTest(key,s){
+  const info=latestChipFor(s);
+  if(!info||($('sameDate').checked&&info.date!==s.date))return false;
+  const f=number(info.record.foreign_net_shares);
+  const t=number(info.record.trust_net_shares);
+  switch(key){
+    case'foreignToday':return f!==null&&f>0;
+    case'trustToday':return t!==null&&t>0;
+    case'bothToday':return f!==null&&t!==null&&f>0&&t>0;
+    case'foreignSum':return (cumulative(s,'foreign_net_shares',Number($('foreignDays').value))??-Infinity)>0;
+    case'trustSum':return (cumulative(s,'trust_net_shares',Number($('trustDays').value))??-Infinity)>0;
+    case'bothSum':{
+      const days=Number($('bothDays').value);
+      return (cumulative(s,'foreign_net_shares',days)??-Infinity)>0
+        &&(cumulative(s,'trust_net_shares',days)??-Infinity)>0;
+    }
+    default:return false;
+  }
+}
+
+function testCondition(key,s){
+  if(chipKeys.has(key))return chipTest(key,s);
+  const c=number(s.close),b=s.bollinger||{};
+  const u=number(b.upper),m=number(b.middle),l=number(b.lower);
+  const ma20=number(s.ma20),ma60=number(s.ma60);
+  const r6=number(s.rsi6),r14=number(s.rsi14);
+  const valid=x=>x!==null&&x>0;
+  const threshold=id=>getNum(id);
+  switch(key){
+    case'aboveUpper':return valid(u)&&c!==null&&c>u;
+    case'belowLower':return valid(l)&&c!==null&&c<l;
+    case'aboveMiddle':return valid(m)&&c!==null&&c>m;
+    case'belowMiddle':return valid(m)&&c!==null&&c<m;
+    case'nearLower':return valid(l)&&c!==null&&threshold('nearPct')!==null&&Math.abs(c-l)/l*100<=threshold('nearPct');
+    case'rsi6Below':return r6!==null&&threshold('rsi6Low')!==null&&r6<threshold('rsi6Low');
+    case'rsi6Above':return r6!==null&&threshold('rsi6High')!==null&&r6>threshold('rsi6High');
+    case'rsi14Below':return r14!==null&&threshold('rsi14Low')!==null&&r14<threshold('rsi14Low');
+    case'rsi14Above':return r14!==null&&threshold('rsi14High')!==null&&r14>threshold('rsi14High');
+    case'aboveMA20':return valid(ma20)&&c!==null&&c>ma20;
+    case'belowMA20':return valid(ma20)&&c!==null&&c<ma20;
+    case'aboveMA60':return valid(ma60)&&c!==null&&c>ma60;
+    case'belowMA60':return valid(ma60)&&c!==null&&c<ma60;
+    default:return false;
+  }
+}
+
+function render(){
+  const chosenFilters=filters(),mode=$('mode').value;
+  const query=$('search').value.trim().toLowerCase();
+  const base=stocks.filter(s=>
+    (!$('latestOnly').checked||s.date===latestDate)
+    &&(!query||String(s.stock_id).toLowerCase().includes(query))
+  );
+  const chosen=base.filter(s=>
+    !chosenFilters.length||
+    (mode==='and'
+      ?chosenFilters.every(f=>testCondition(f,s))
+      :chosenFilters.some(f=>testCondition(f,s)))
+  );
+  $('matches').textContent=`符合：${chosen.length} 檔`;
+  $('resultInfo').textContent=`符合 ${chosen.length} 檔／篩選前 ${base.length} 檔；技術最新日 ${latestDate||'—'}；法人最新日 ${chipLatest||'—'}`;
+  const tbody=$('results');
+  tbody.replaceChildren();
+
+  if(!chosen.length){
+    const tr=document.createElement('tr'),td=document.createElement('td');
+    td.colSpan=15;
+    td.className='empty';
+    td.textContent='沒有符合條件的股票。請確認資料日期、條件與法人歷史是否足夠。';
+    tr.append(td);
+    tbody.append(tr);
+    return;
+  }
+
+  const fragment=document.createDocumentFragment();
+  for(const s of chosen){
+    const info=latestChipFor(s);
+    const usable=info&&(!$('sameDate').checked||info.date===s.date);
+    const r=usable?info.record:null;
+    const fields=[
+      s.stock_id,s.date,s.close,s.rsi6,s.rsi14,
+      s.bollinger?.upper,s.bollinger?.middle,s.bollinger?.lower,
+      s.ma20,s.ma60,usable?info.date:null,
+      r?number(r.foreign_net_shares)/1000:null,
+      r?number(r.trust_net_shares)/1000:null,
+      usable&&cumulative(s,'foreign_net_shares',5)!==null
+        ?cumulative(s,'foreign_net_shares',5)/1000:null,
+      usable&&cumulative(s,'trust_net_shares',5)!==null
+        ?cumulative(s,'trust_net_shares',5)/1000:null
+    ];
+    const tr=document.createElement('tr');
+    fields.forEach((v,i)=>{
+      const td=document.createElement('td');
+      td.textContent=i===0||i===1||i===10?String(v??'—'):fmt(v,i>=11?1:4);
+      if(i>=11&&finite(v)){
+        td.className=Number(v)>0?'pos':Number(v)<0?'neg':'';
+      }
+      tr.append(td);
+    });
+    fragment.append(tr);
+  }
+  tbody.append(fragment);
+}
+
+async function fetchJson(path){
+  const response=await fetch(`${path}?t=${Date.now()}`,{cache:'no-store'});
+  if(!response.ok)throw Error(`HTTP ${response.status}`);
+  return response.json();
+}
+
+async function load(){
+  $('status').className='small';
+  $('status').textContent='正在讀取技術資料與法人籌碼…';
+
+  const [price,chip]=await Promise.allSettled([
+    fetchJson('./data/indicators.json'),
+    fetchJson('./data/chip_history.json')
+  ]);
+
+  if(price.status==='fulfilled'){
+    const json=price.value;
+    if(!json.stocks||typeof json.stocks!=='object'){
+      stocks=[];
+      $('updated').textContent='技術資料格式錯誤';
+    }else{
+      stocks=Object.values(json.stocks).filter(s=>
+        s&&s.stock_id&&s.date&&finite(s.close)
+      );
+      $('updated').textContent=`技術更新：${json.generated_at?String(json.generated_at).replace('T',' ').slice(0,16):'未知'}`;
+    }
+  }else{
+    stocks=[];
+    $('updated').textContent='技術資料讀取失敗';
+  }
+
+  latestDate=stocks.reduce((max,s)=>s.date>max?s.date:max,'');
+  $('total').textContent=`可分析：${stocks.length} 檔`;
+
+  if(chip.status==='fulfilled'
+    &&chip.value
+    &&typeof chip.value==='object'
+    &&!Array.isArray(chip.value)){
+    chipHistory=chip.value;
+    chipDates=Object.keys(chipHistory).filter(d=>
+      /^\d{4}-\d{2}-\d{2}$/.test(d)
+      &&chipHistory[d]
+      &&typeof chipHistory[d]==='object'
+      &&Object.keys(chipHistory[d]).length
+    ).sort();
+    chipLatest=chipDates.at(-1)||'';
+    chipError=chipDates.length?'':'法人歷史資料沒有有效交易日';
+    $('chipUpdated').textContent=`法人最新：${chipLatest||'無資料'}`;
+  }else{
+    chipHistory={};
+    chipDates=[];
+    chipLatest='';
+    chipError='法人資料讀取失敗';
+    $('chipUpdated').textContent='法人資料讀取失敗';
+  }
+
+  const problems=[];
+  if(price.status==='rejected')problems.push(`技術資料：${price.reason.message}`);
+  if(chip.status==='rejected')problems.push(`法人資料：${chip.reason.message}`);
+  if(chipError)problems.push(chipError);
+  if(latestDate&&chipLatest&&latestDate!==chipLatest){
+    problems.push(`日期不同：技術 ${latestDate}／法人 ${chipLatest}`);
+  }
+
+  $('status').className=problems.length?'small warn':'small';
+  $('status').textContent=`已載入 ${stocks.length} 檔技術指標、${chipDates.length} 個法人交易日。${problems.length?'注意：'+problems.join('；'):'資料載入完成。'}`;
+  render();
+}
+
+const settingsIds=[
+  'nearPct','rsi6Low','rsi6High','rsi14Low','rsi14High',
+  'foreignDays','trustDays','bothDays','mode','latestOnly','sameDate'
+];
+const storageKey='tw-stock-quant-strategies-v1';
+
+function readStrategies(){
+  try{
+    const data=JSON.parse(localStorage.getItem(storageKey)||'{}');
+    return data&&typeof data==='object'&&!Array.isArray(data)?data:{};
+  }catch{return {}}
+}
+
+function refreshStrategies(){
+  const all=readStrategies(),selected=$('strategies').value;
+  $('strategies').replaceChildren(new Option('請選擇策略',''));
+  Object.keys(all).sort().forEach(name=>
+    $('strategies').add(new Option(name,name))
+  );
+  if(all[selected])$('strategies').value=selected;
+}
+
+$('saveStrategy').addEventListener('click',()=>{
+  const name=$('strategyName').value.trim();
+  if(!name){alert('請先輸入策略名稱');return;}
+  const all=readStrategies();
+  if(all[name]&&!confirm('同名策略已存在，要覆蓋嗎？'))return;
+  const settings={};
+  settingsIds.forEach(id=>
+    settings[id]=$(id).type==='checkbox'?$(id).checked:$(id).value
+  );
+  all[name]={filters:filters(),settings};
+  try{
+    localStorage.setItem(storageKey,JSON.stringify(all));
+    refreshStrategies();
+    $('strategies').value=name;
+    alert('策略已儲存於這台裝置的瀏覽器');
+  }catch{
+    alert('無法儲存，請確認瀏覽器允許網站儲存資料');
+  }
+});
+
+$('loadStrategy').addEventListener('click',()=>{
+  const name=$('strategies').value,entry=readStrategies()[name];
+  if(!entry)return alert('請先選擇策略');
+  document.querySelectorAll('[data-filter]').forEach(el=>
+    el.checked=Array.isArray(entry.filters)
+      &&entry.filters.includes(el.dataset.filter)
+  );
+  settingsIds.forEach(id=>{
+    if(entry.settings&&Object.prototype.hasOwnProperty.call(entry.settings,id)){
+      if($(id).type==='checkbox'){
+        $(id).checked=Boolean(entry.settings[id]);
+      }else{
+        $(id).value=entry.settings[id];
+      }
+    }
+  });
+  $('strategyName').value=name;
+  render();
+});
+
+$('deleteStrategy').addEventListener('click',()=>{
+  const name=$('strategies').value;
+  if(!name)return alert('請先選擇策略');
+  if(!confirm(`確定刪除「${name}」？`))return;
+  const all=readStrategies();
+  delete all[name];
+  localStorage.setItem(storageKey,JSON.stringify(all));
+  refreshStrategies();
+  $('strategyName').value='';
+});
+
+$('apply').addEventListener('click',render);
+$('reset').addEventListener('click',()=>{
+  document.querySelectorAll('[data-filter]').forEach(el=>el.checked=false);
+  $('mode').value='and';
+  $('search').value='';
+  $('latestOnly').checked=true;
+  $('sameDate').checked=true;
+  render();
+});
+$('reload').addEventListener('click',load);
+$('search').addEventListener('input',render);
+$('latestOnly').addEventListener('change',render);
+$('sameDate').addEventListener('change',render);
+$('mode').addEventListener('change',render);
+
+refreshStrategies();
+load();
+</script>
+</body>
+</html>
