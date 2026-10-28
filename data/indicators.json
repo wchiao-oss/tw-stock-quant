@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-28T01:54:30.711653+08:00",
+  "generated_at": "2026-10-28T16:07:58.388982+08:00",
   "stocks": {
     "0050": {
       "stock_id": "0050",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 106.9,
-      "ma20": 111.8875,
-      "ma60": 107.4275,
-      "rsi6": 25.0677,
-      "rsi14": 38.6415,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 106.6,
+      "ma20": 111.625,
+      "ma60": 107.585,
+      "rsi6": 23.813,
+      "rsi14": 37.852,
       "bollinger": {
-        "upper": 117.6989,
-        "middle": 111.8875,
-        "lower": 106.0761
+        "upper": 117.877,
+        "middle": 111.625,
+        "lower": 105.373
       },
       "signals": {
         "above_upper": false,
@@ -28,17 +28,17 @@
     },
     "0051": {
       "stock_id": "0051",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 147.2,
-      "ma20": 149.935,
-      "ma60": 144.6475,
-      "rsi6": 39.1756,
-      "rsi14": 46.9342,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 146.65,
+      "ma20": 149.9075,
+      "ma60": 144.9242,
+      "rsi6": 37.232,
+      "rsi14": 45.8409,
       "bollinger": {
-        "upper": 154.5348,
-        "middle": 149.935,
-        "lower": 145.3352
+        "upper": 154.5784,
+        "middle": 149.9075,
+        "lower": 145.2366
       },
       "signals": {
         "above_upper": false,
@@ -53,17 +53,17 @@
     },
     "0052": {
       "stock_id": "0052",
-      "date": "2026-10-22",
-      "trading_days": 231,
-      "close": 61.8,
-      "ma20": 65.105,
-      "ma60": 62.5167,
-      "rsi6": 24.714,
-      "rsi14": 37.6235,
+      "date": "2026-10-27",
+      "trading_days": 232,
+      "close": 61.75,
+      "ma20": 64.955,
+      "ma60": 62.6017,
+      "rsi6": 24.394,
+      "rsi14": 37.4179,
       "bollinger": {
-        "upper": 68.772,
-        "middle": 65.105,
-        "lower": 61.438
+        "upper": 68.9025,
+        "middle": 64.955,
+        "lower": 61.0075
       },
       "signals": {
         "above_upper": false,
@@ -78,17 +78,17 @@
     },
     "0053": {
       "stock_id": "0053",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 238.05,
-      "ma20": 251.5975,
-      "ma60": 242.195,
-      "rsi6": 21.3821,
-      "rsi14": 36.454,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 237.4,
+      "ma20": 250.895,
+      "ma60": 242.54,
+      "rsi6": 20.3878,
+      "rsi14": 35.787,
       "bollinger": {
-        "upper": 267.1793,
-        "middle": 251.5975,
-        "lower": 236.0157
+        "upper": 267.6618,
+        "middle": 250.895,
+        "lower": 234.1282
       },
       "signals": {
         "above_upper": false,
@@ -103,17 +103,17 @@
     },
     "0055": {
       "stock_id": "0055",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 51.9,
-      "ma20": 50.1505,
-      "ma60": 47.3062,
-      "rsi6": 66.235,
-      "rsi14": 64.4549,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 52.2,
+      "ma20": 50.2405,
+      "ma60": 47.4692,
+      "rsi6": 69.1794,
+      "rsi14": 65.8869,
       "bollinger": {
-        "upper": 52.1802,
-        "middle": 50.1505,
-        "lower": 48.1208
+        "upper": 52.4574,
+        "middle": 50.2405,
+        "lower": 48.0236
       },
       "signals": {
         "above_upper": false,
@@ -128,17 +128,17 @@
     },
     "0056": {
       "stock_id": "0056",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 56.3,
-      "ma20": 57.7225,
-      "ma60": 54.666,
-      "rsi6": 34.2075,
-      "rsi14": 45.1865,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 56.55,
+      "ma20": 57.7075,
+      "ma60": 54.8053,
+      "rsi6": 37.3804,
+      "rsi14": 46.7122,
       "bollinger": {
-        "upper": 59.5622,
-        "middle": 57.7225,
-        "lower": 55.8828
+        "upper": 59.58,
+        "middle": 57.7075,
+        "lower": 55.835
       },
       "signals": {
         "above_upper": false,
@@ -153,17 +153,17 @@
     },
     "0057": {
       "stock_id": "0057",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 317.8,
-      "ma20": 332.855,
-      "ma60": 320.345,
-      "rsi6": 21.6075,
-      "rsi14": 36.8841,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 317.6,
+      "ma20": 332.035,
+      "ma60": 320.7708,
+      "rsi6": 21.3256,
+      "rsi14": 36.6938,
       "bollinger": {
-        "upper": 350.1134,
-        "middle": 332.855,
-        "lower": 315.5966
+        "upper": 350.5132,
+        "middle": 332.035,
+        "lower": 313.5568
       },
       "signals": {
         "above_upper": false,
@@ -178,17 +178,17 @@
     },
     "0061": {
       "stock_id": "0061",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 22.23,
-      "ma20": 23.1105,
-      "ma60": 23.9943,
-      "rsi6": 26.3582,
-      "rsi14": 30.4081,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 22.37,
+      "ma20": 23.0155,
+      "ma60": 23.9587,
+      "rsi6": 34.5508,
+      "rsi14": 34.0489,
       "bollinger": {
-        "upper": 24.1851,
-        "middle": 23.1105,
-        "lower": 22.0359
+        "upper": 23.995,
+        "middle": 23.0155,
+        "lower": 22.036
       },
       "signals": {
         "above_upper": false,
@@ -203,17 +203,17 @@
     },
     "1101": {
       "stock_id": "1101",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 27.95,
-      "ma20": 26.1275,
-      "ma60": 24.95,
-      "rsi6": 73.9532,
-      "rsi14": 67.2282,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 28.1,
+      "ma20": 26.305,
+      "ma60": 25.005,
+      "rsi6": 75.4515,
+      "rsi14": 68.0629,
       "bollinger": {
-        "upper": 27.95,
-        "middle": 26.1275,
-        "lower": 24.305
+        "upper": 28.1694,
+        "middle": 26.305,
+        "lower": 24.4406
       },
       "signals": {
         "above_upper": false,
@@ -228,17 +228,17 @@
     },
     "1102": {
       "stock_id": "1102",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 38.55,
-      "ma20": 36.5675,
-      "ma60": 34.9492,
-      "rsi6": 81.7356,
-      "rsi14": 74.6569,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 38.5,
+      "ma20": 36.72,
+      "ma60": 35.0408,
+      "rsi6": 79.4078,
+      "rsi14": 73.77,
       "bollinger": {
-        "upper": 38.7728,
-        "middle": 36.5675,
-        "lower": 34.3622
+        "upper": 39.0151,
+        "middle": 36.72,
+        "lower": 34.4249
       },
       "signals": {
         "above_upper": false,
@@ -246,24 +246,24 @@
         "above_ma20": true,
         "above_ma60": true,
         "rsi6_below_20": false,
-        "rsi6_above_80": true,
+        "rsi6_above_80": false,
         "rsi14_below_20": false,
         "rsi14_above_80": false
       }
     },
     "1103": {
       "stock_id": "1103",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 13.6,
-      "ma20": 13.2175,
-      "ma60": 13.1817,
-      "rsi6": 80.643,
-      "rsi14": 67.5057,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 13.75,
+      "ma20": 13.25,
+      "ma60": 13.1867,
+      "rsi6": 85.5566,
+      "rsi14": 71.7035,
       "bollinger": {
-        "upper": 13.4919,
-        "middle": 13.2175,
-        "lower": 12.9431
+        "upper": 13.6036,
+        "middle": 13.25,
+        "lower": 12.8964
       },
       "signals": {
         "above_upper": true,
@@ -278,17 +278,17 @@
     },
     "1104": {
       "stock_id": "1104",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 27.0,
-      "ma20": 26.7975,
-      "ma60": 26.8217,
-      "rsi6": 57.3212,
-      "rsi14": 53.3923,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 26.85,
+      "ma20": 26.81,
+      "ma60": 26.825,
+      "rsi6": 48.4968,
+      "rsi14": 49.6958,
       "bollinger": {
-        "upper": 27.1905,
-        "middle": 26.7975,
-        "lower": 26.4045
+        "upper": 27.1929,
+        "middle": 26.81,
+        "lower": 26.4271
       },
       "signals": {
         "above_upper": false,
@@ -303,17 +303,17 @@
     },
     "1108": {
       "stock_id": "1108",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 10.95,
-      "ma20": 11.0775,
-      "ma60": 11.4775,
-      "rsi6": 22.2,
-      "rsi14": 30.2595,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 11.0,
+      "ma20": 11.0725,
+      "ma60": 11.46,
+      "rsi6": 40.0956,
+      "rsi14": 36.0081,
       "bollinger": {
-        "upper": 11.2134,
-        "middle": 11.0775,
-        "lower": 10.9416
+        "upper": 11.2121,
+        "middle": 11.0725,
+        "lower": 10.9329
       },
       "signals": {
         "above_upper": false,
@@ -328,17 +328,17 @@
     },
     "1109": {
       "stock_id": "1109",
-      "date": "2026-10-22",
-      "trading_days": 236,
+      "date": "2026-10-27",
+      "trading_days": 237,
       "close": 13.05,
-      "ma20": 13.2,
-      "ma60": 13.4292,
+      "ma20": 13.185,
+      "ma60": 13.4183,
       "rsi6": 37.2038,
       "rsi14": 36.2636,
       "bollinger": {
-        "upper": 13.4258,
-        "middle": 13.2,
-        "lower": 12.9742
+        "upper": 13.4088,
+        "middle": 13.185,
+        "lower": 12.9612
       },
       "signals": {
         "above_upper": false,
@@ -353,22 +353,22 @@
     },
     "1110": {
       "stock_id": "1110",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 14.4,
-      "ma20": 14.5025,
-      "ma60": 15.4675,
-      "rsi6": 46.2017,
-      "rsi14": 39.3203,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 14.55,
+      "ma20": 14.4775,
+      "ma60": 15.445,
+      "rsi6": 55.962,
+      "rsi14": 44.2279,
       "bollinger": {
-        "upper": 14.9202,
-        "middle": 14.5025,
-        "lower": 14.0848
+        "upper": 14.8129,
+        "middle": 14.4775,
+        "lower": 14.1421
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": false,
+        "above_ma20": true,
         "above_ma60": false,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
@@ -378,22 +378,22 @@
     },
     "1201": {
       "stock_id": "1201",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 11.45,
-      "ma20": 11.5325,
-      "ma60": 11.9533,
-      "rsi6": 39.877,
-      "rsi14": 40.2298,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 11.55,
+      "ma20": 11.525,
+      "ma60": 11.9433,
+      "rsi6": 52.8062,
+      "rsi14": 45.4877,
       "bollinger": {
-        "upper": 11.7093,
-        "middle": 11.5325,
-        "lower": 11.3557
+        "upper": 11.6847,
+        "middle": 11.525,
+        "lower": 11.3653
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": false,
+        "above_ma20": true,
         "above_ma60": false,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
@@ -403,22 +403,22 @@
     },
     "1203": {
       "stock_id": "1203",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 43.15,
-      "ma20": 43.17,
-      "ma60": 44.6967,
-      "rsi6": 52.5634,
-      "rsi14": 48.4327,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 43.95,
+      "ma20": 43.2,
+      "ma60": 44.6267,
+      "rsi6": 62.8277,
+      "rsi14": 52.9876,
       "bollinger": {
-        "upper": 44.0905,
-        "middle": 43.17,
-        "lower": 42.2495
+        "upper": 44.1793,
+        "middle": 43.2,
+        "lower": 42.2207
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": false,
+        "above_ma20": true,
         "above_ma60": false,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
@@ -428,17 +428,17 @@
     },
     "1210": {
       "stock_id": "1210",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 51.3,
-      "ma20": 51.53,
-      "ma60": 52.5967,
-      "rsi6": 46.5349,
-      "rsi14": 43.4333,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 51.0,
+      "ma20": 51.475,
+      "ma60": 52.4883,
+      "rsi6": 35.5491,
+      "rsi14": 39.5405,
       "bollinger": {
-        "upper": 52.2144,
-        "middle": 51.53,
-        "lower": 50.8456
+        "upper": 52.144,
+        "middle": 51.475,
+        "lower": 50.806
       },
       "signals": {
         "above_upper": false,
@@ -453,23 +453,23 @@
     },
     "1213": {
       "stock_id": "1213",
-      "date": "2026-10-22",
-      "trading_days": 219,
-      "close": 7.21,
-      "ma20": 7.263,
-      "ma60": 7.3743,
-      "rsi6": 46.7676,
-      "rsi14": 47.7328,
+      "date": "2026-10-27",
+      "trading_days": 220,
+      "close": 7.44,
+      "ma20": 7.279,
+      "ma60": 7.37,
+      "rsi6": 59.9793,
+      "rsi14": 53.048,
       "bollinger": {
-        "upper": 7.5605,
-        "middle": 7.263,
-        "lower": 6.9655
+        "upper": 7.5784,
+        "middle": 7.279,
+        "lower": 6.9796
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": false,
-        "above_ma60": false,
+        "above_ma20": true,
+        "above_ma60": true,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
@@ -478,23 +478,23 @@
     },
     "1215": {
       "stock_id": "1215",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 107.0,
-      "ma20": 105.775,
-      "ma60": 107.3583,
-      "rsi6": 58.3396,
-      "rsi14": 51.6104,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 109.0,
+      "ma20": 105.975,
+      "ma60": 107.4083,
+      "rsi6": 72.6134,
+      "rsi14": 59.128,
       "bollinger": {
-        "upper": 107.6585,
-        "middle": 105.775,
-        "lower": 103.8915
+        "upper": 108.2875,
+        "middle": 105.975,
+        "lower": 103.6625
       },
       "signals": {
-        "above_upper": false,
+        "above_upper": true,
         "below_lower": false,
         "above_ma20": true,
-        "above_ma60": false,
+        "above_ma60": true,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
@@ -503,17 +503,17 @@
     },
     "1216": {
       "stock_id": "1216",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 79.6,
-      "ma20": 76.16,
-      "ma60": 75.9117,
-      "rsi6": 73.6456,
-      "rsi14": 66.8329,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 80.2,
+      "ma20": 76.44,
+      "ma60": 75.9583,
+      "rsi6": 77.553,
+      "rsi14": 69.0027,
       "bollinger": {
-        "upper": 80.9095,
-        "middle": 76.16,
-        "lower": 71.4105
+        "upper": 81.4422,
+        "middle": 76.44,
+        "lower": 71.4378
       },
       "signals": {
         "above_upper": false,
@@ -528,42 +528,17 @@
     },
     "1217": {
       "stock_id": "1217",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 9.71,
-      "ma20": 9.9085,
-      "ma60": 9.9313,
-      "rsi6": 16.4358,
-      "rsi14": 29.3125,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 9.8,
+      "ma20": 9.9,
+      "ma60": 9.9283,
+      "rsi6": 39.1852,
+      "rsi14": 40.4486,
       "bollinger": {
-        "upper": 10.025,
-        "middle": 9.9085,
-        "lower": 9.792
-      },
-      "signals": {
-        "above_upper": false,
-        "below_lower": true,
-        "above_ma20": false,
-        "above_ma60": false,
-        "rsi6_below_20": true,
-        "rsi6_above_80": false,
-        "rsi14_below_20": false,
-        "rsi14_above_80": false
-      }
-    },
-    "1218": {
-      "stock_id": "1218",
-      "date": "2026-10-22",
-      "trading_days": 235,
-      "close": 14.25,
-      "ma20": 14.4675,
-      "ma60": 14.7525,
-      "rsi6": 30.3281,
-      "rsi14": 39.8625,
-      "bollinger": {
-        "upper": 14.6917,
-        "middle": 14.4675,
-        "lower": 14.2433
+        "upper": 10.022,
+        "middle": 9.9,
+        "lower": 9.778
       },
       "signals": {
         "above_upper": false,
@@ -576,19 +551,44 @@
         "rsi14_above_80": false
       }
     },
+    "1218": {
+      "stock_id": "1218",
+      "date": "2026-10-27",
+      "trading_days": 236,
+      "close": 13.7,
+      "ma20": 14.43,
+      "ma60": 14.7175,
+      "rsi6": 13.5435,
+      "rsi14": 27.9299,
+      "bollinger": {
+        "upper": 14.833,
+        "middle": 14.43,
+        "lower": 14.027
+      },
+      "signals": {
+        "above_upper": false,
+        "below_lower": true,
+        "above_ma20": false,
+        "above_ma60": false,
+        "rsi6_below_20": true,
+        "rsi6_above_80": false,
+        "rsi14_below_20": false,
+        "rsi14_above_80": false
+      }
+    },
     "1219": {
       "stock_id": "1219",
-      "date": "2026-10-22",
-      "trading_days": 236,
+      "date": "2026-10-27",
+      "trading_days": 237,
       "close": 11.2,
-      "ma20": 11.26,
-      "ma60": 11.28,
+      "ma20": 11.245,
+      "ma60": 11.2725,
       "rsi6": 56.5238,
       "rsi14": 46.3282,
       "bollinger": {
-        "upper": 11.5526,
-        "middle": 11.26,
-        "lower": 10.9674
+        "upper": 11.5168,
+        "middle": 11.245,
+        "lower": 10.9732
       },
       "signals": {
         "above_upper": false,
@@ -603,17 +603,17 @@
     },
     "1220": {
       "stock_id": "1220",
-      "date": "2026-10-22",
-      "trading_days": 236,
+      "date": "2026-10-27",
+      "trading_days": 237,
       "close": 10.7,
-      "ma20": 10.845,
-      "ma60": 10.915,
+      "ma20": 10.84,
+      "ma60": 10.9067,
       "rsi6": 26.6704,
       "rsi14": 38.2734,
       "bollinger": {
-        "upper": 11.009,
-        "middle": 10.845,
-        "lower": 10.681
+        "upper": 11.0149,
+        "middle": 10.84,
+        "lower": 10.6651
       },
       "signals": {
         "above_upper": false,
@@ -628,23 +628,23 @@
     },
     "1225": {
       "stock_id": "1225",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 23.8,
-      "ma20": 24.33,
-      "ma60": 24.7375,
-      "rsi6": 32.7564,
-      "rsi14": 41.1051,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 25.0,
+      "ma20": 24.355,
+      "ma60": 24.7092,
+      "rsi6": 64.0875,
+      "rsi14": 55.3965,
       "bollinger": {
-        "upper": 24.9989,
-        "middle": 24.33,
-        "lower": 23.6611
+        "upper": 25.0823,
+        "middle": 24.355,
+        "lower": 23.6277
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": false,
-        "above_ma60": false,
+        "above_ma20": true,
+        "above_ma60": true,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
@@ -653,17 +653,17 @@
     },
     "1227": {
       "stock_id": "1227",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 27.6,
-      "ma20": 28.0025,
-      "ma60": 28.525,
-      "rsi6": 29.114,
-      "rsi14": 37.8322,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 27.5,
+      "ma20": 27.9675,
+      "ma60": 28.4917,
+      "rsi6": 26.0167,
+      "rsi14": 36.1296,
       "bollinger": {
-        "upper": 28.5497,
-        "middle": 28.0025,
-        "lower": 27.4553
+        "upper": 28.5483,
+        "middle": 27.9675,
+        "lower": 27.3867
       },
       "signals": {
         "above_upper": false,
@@ -678,17 +678,17 @@
     },
     "1229": {
       "stock_id": "1229",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 39.95,
-      "ma20": 40.1825,
-      "ma60": 40.8533,
-      "rsi6": 36.6682,
-      "rsi14": 43.6562,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 39.9,
+      "ma20": 40.18,
+      "ma60": 40.8367,
+      "rsi6": 35.448,
+      "rsi14": 43.1283,
       "bollinger": {
-        "upper": 41.306,
-        "middle": 40.1825,
-        "lower": 39.059
+        "upper": 41.3058,
+        "middle": 40.18,
+        "lower": 39.0542
       },
       "signals": {
         "above_upper": false,
@@ -703,48 +703,48 @@
     },
     "1231": {
       "stock_id": "1231",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 74.3,
-      "ma20": 77.755,
-      "ma60": 80.0583,
-      "rsi6": 11.5617,
-      "rsi14": 20.7751,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 73.5,
+      "ma20": 77.44,
+      "ma60": 79.7533,
+      "rsi6": 8.7952,
+      "rsi14": 18.3975,
       "bollinger": {
-        "upper": 81.2521,
-        "middle": 77.755,
-        "lower": 74.2579
+        "upper": 81.2633,
+        "middle": 77.44,
+        "lower": 73.6167
       },
       "signals": {
         "above_upper": false,
-        "below_lower": false,
+        "below_lower": true,
         "above_ma20": false,
         "above_ma60": false,
         "rsi6_below_20": true,
         "rsi6_above_80": false,
-        "rsi14_below_20": false,
+        "rsi14_below_20": true,
         "rsi14_above_80": false
       }
     },
     "1232": {
       "stock_id": "1232",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 154.0,
-      "ma20": 154.375,
-      "ma60": 155.1,
-      "rsi6": 39.172,
-      "rsi14": 45.9048,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 160.0,
+      "ma20": 154.65,
+      "ma60": 155.2083,
+      "rsi6": 78.8253,
+      "rsi14": 67.785,
       "bollinger": {
-        "upper": 156.4213,
-        "middle": 154.375,
-        "lower": 152.3287
+        "upper": 157.8453,
+        "middle": 154.65,
+        "lower": 151.4547
       },
       "signals": {
-        "above_upper": false,
+        "above_upper": true,
         "below_lower": false,
-        "above_ma20": false,
-        "above_ma60": false,
+        "above_ma20": true,
+        "above_ma60": true,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
@@ -753,23 +753,23 @@
     },
     "1233": {
       "stock_id": "1233",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 28.0,
-      "ma20": 28.0225,
-      "ma60": 28.2017,
-      "rsi6": 48.3185,
-      "rsi14": 48.0783,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 28.25,
+      "ma20": 28.03,
+      "ma60": 28.1883,
+      "rsi6": 65.841,
+      "rsi14": 55.4764,
       "bollinger": {
-        "upper": 28.2784,
-        "middle": 28.0225,
-        "lower": 27.7666
+        "upper": 28.3028,
+        "middle": 28.03,
+        "lower": 27.7572
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": false,
-        "above_ma60": false,
+        "above_ma20": true,
+        "above_ma60": true,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
@@ -778,17 +778,17 @@
     },
     "1234": {
       "stock_id": "1234",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 32.25,
-      "ma20": 32.5925,
-      "ma60": 33.1675,
-      "rsi6": 33.2667,
-      "rsi14": 34.8399,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 32.4,
+      "ma20": 32.56,
+      "ma60": 33.145,
+      "rsi6": 46.9424,
+      "rsi14": 40.8738,
       "bollinger": {
-        "upper": 33.1758,
-        "middle": 32.5925,
-        "lower": 32.0092
+        "upper": 33.1092,
+        "middle": 32.56,
+        "lower": 32.0108
       },
       "signals": {
         "above_upper": false,
@@ -803,22 +803,22 @@
     },
     "1235": {
       "stock_id": "1235",
-      "date": "2026-10-22",
-      "trading_days": 235,
-      "close": 30.4,
-      "ma20": 32.4775,
-      "ma60": 35.5833,
-      "rsi6": 35.9756,
-      "rsi14": 37.043,
+      "date": "2026-10-27",
+      "trading_days": 236,
+      "close": 32.75,
+      "ma20": 32.2425,
+      "ma60": 35.5167,
+      "rsi6": 63.457,
+      "rsi14": 48.7513,
       "bollinger": {
-        "upper": 37.7417,
-        "middle": 32.4775,
-        "lower": 27.2133
+        "upper": 36.9923,
+        "middle": 32.2425,
+        "lower": 27.4927
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": false,
+        "above_ma20": true,
         "above_ma60": false,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
@@ -828,17 +828,17 @@
     },
     "1236": {
       "stock_id": "1236",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 25.95,
-      "ma20": 25.635,
-      "ma60": 25.4817,
-      "rsi6": 57.1174,
-      "rsi14": 56.1485,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 26.2,
+      "ma20": 25.6775,
+      "ma60": 25.5267,
+      "rsi6": 65.9342,
+      "rsi14": 60.8901,
       "bollinger": {
-        "upper": 26.1614,
-        "middle": 25.635,
-        "lower": 25.1086
+        "upper": 26.2409,
+        "middle": 25.6775,
+        "lower": 25.1141
       },
       "signals": {
         "above_upper": false,
@@ -853,17 +853,17 @@
     },
     "1256": {
       "stock_id": "1256",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 166.0,
-      "ma20": 167.7,
-      "ma60": 174.225,
-      "rsi6": 41.5739,
-      "rsi14": 42.3701,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 165.5,
+      "ma20": 167.6,
+      "ma60": 173.9917,
+      "rsi6": 39.494,
+      "rsi14": 41.444,
       "bollinger": {
-        "upper": 170.4092,
-        "middle": 167.7,
-        "lower": 164.9908
+        "upper": 170.474,
+        "middle": 167.6,
+        "lower": 164.726
       },
       "signals": {
         "above_upper": false,
@@ -878,17 +878,17 @@
     },
     "1301": {
       "stock_id": "1301",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 73.8,
-      "ma20": 73.58,
-      "ma60": 64.8517,
-      "rsi6": 40.4506,
-      "rsi14": 51.611,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 74.4,
+      "ma20": 74.07,
+      "ma60": 65.1333,
+      "rsi6": 42.6805,
+      "rsi14": 52.4781,
       "bollinger": {
-        "upper": 88.3496,
-        "middle": 73.58,
-        "lower": 58.8104
+        "upper": 88.2541,
+        "middle": 74.07,
+        "lower": 59.8859
       },
       "signals": {
         "above_upper": false,
@@ -903,17 +903,17 @@
     },
     "1303": {
       "stock_id": "1303",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 301.0,
-      "ma20": 286.5,
-      "ma60": 231.6083,
-      "rsi6": 48.5607,
-      "rsi14": 56.5659,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 297.5,
+      "ma20": 289.8,
+      "ma60": 233.95,
+      "rsi6": 46.447,
+      "rsi14": 55.3842,
       "bollinger": {
-        "upper": 353.8402,
-        "middle": 286.5,
-        "lower": 219.1598
+        "upper": 352.3327,
+        "middle": 289.8,
+        "lower": 227.2673
       },
       "signals": {
         "above_upper": false,
@@ -928,17 +928,17 @@
     },
     "1304": {
       "stock_id": "1304",
-      "date": "2026-10-22",
-      "trading_days": 236,
+      "date": "2026-10-27",
+      "trading_days": 237,
       "close": 12.65,
-      "ma20": 12.8575,
-      "ma60": 12.3108,
+      "ma20": 12.8775,
+      "ma60": 12.3317,
       "rsi6": 36.2086,
       "rsi14": 47.4346,
       "bollinger": {
-        "upper": 13.7588,
-        "middle": 12.8575,
-        "lower": 11.9562
+        "upper": 13.7409,
+        "middle": 12.8775,
+        "lower": 12.0141
       },
       "signals": {
         "above_upper": false,
@@ -953,17 +953,17 @@
     },
     "1305": {
       "stock_id": "1305",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 12.5,
-      "ma20": 12.6575,
-      "ma60": 12.1258,
-      "rsi6": 34.2617,
-      "rsi14": 47.805,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 12.4,
+      "ma20": 12.675,
+      "ma60": 12.1458,
+      "rsi6": 31.0188,
+      "rsi14": 46.018,
       "bollinger": {
-        "upper": 13.5839,
-        "middle": 12.6575,
-        "lower": 11.7311
+        "upper": 13.5675,
+        "middle": 12.675,
+        "lower": 11.7825
       },
       "signals": {
         "above_upper": false,
@@ -978,22 +978,22 @@
     },
     "1307": {
       "stock_id": "1307",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 31.0,
-      "ma20": 31.0975,
-      "ma60": 30.915,
-      "rsi6": 47.6153,
-      "rsi14": 49.6035,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 31.35,
+      "ma20": 31.1325,
+      "ma60": 30.9208,
+      "rsi6": 58.6342,
+      "rsi14": 54.4056,
       "bollinger": {
-        "upper": 31.7159,
-        "middle": 31.0975,
-        "lower": 30.4791
+        "upper": 31.7243,
+        "middle": 31.1325,
+        "lower": 30.5407
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": false,
+        "above_ma20": true,
         "above_ma60": true,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
@@ -1003,17 +1003,17 @@
     },
     "1308": {
       "stock_id": "1308",
-      "date": "2026-10-22",
-      "trading_days": 236,
+      "date": "2026-10-27",
+      "trading_days": 237,
       "close": 13.75,
-      "ma20": 14.4,
-      "ma60": 13.9483,
+      "ma20": 14.38,
+      "ma60": 13.9658,
       "rsi6": 26.1161,
       "rsi14": 40.5663,
       "bollinger": {
-        "upper": 15.0723,
-        "middle": 14.4,
-        "lower": 13.7277
+        "upper": 15.1028,
+        "middle": 14.38,
+        "lower": 13.6572
       },
       "signals": {
         "above_upper": false,
@@ -1028,23 +1028,23 @@
     },
     "1309": {
       "stock_id": "1309",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 13.55,
-      "ma20": 14.1075,
-      "ma60": 13.5275,
-      "rsi6": 33.0369,
-      "rsi14": 43.7305,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 13.4,
+      "ma20": 14.09,
+      "ma60": 13.5367,
+      "rsi6": 30.165,
+      "rsi14": 42.0567,
       "bollinger": {
-        "upper": 14.8893,
-        "middle": 14.1075,
-        "lower": 13.3257
+        "upper": 14.9174,
+        "middle": 14.09,
+        "lower": 13.2626
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
         "above_ma20": false,
-        "above_ma60": true,
+        "above_ma60": false,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
@@ -1053,17 +1053,17 @@
     },
     "1310": {
       "stock_id": "1310",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 9.59,
-      "ma20": 9.594,
-      "ma60": 8.7183,
-      "rsi6": 41.5002,
-      "rsi14": 51.8001,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 9.39,
+      "ma20": 9.627,
+      "ma60": 8.7402,
+      "rsi6": 35.58,
+      "rsi14": 48.5689,
       "bollinger": {
-        "upper": 10.6017,
-        "middle": 9.594,
-        "lower": 8.5863
+        "upper": 10.5598,
+        "middle": 9.627,
+        "lower": 8.6942
       },
       "signals": {
         "above_upper": false,
@@ -1078,17 +1078,17 @@
     },
     "1312": {
       "stock_id": "1312",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 14.8,
-      "ma20": 15.4175,
-      "ma60": 13.86,
-      "rsi6": 38.3538,
-      "rsi14": 47.1615,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 14.75,
+      "ma20": 15.42,
+      "ma60": 13.9133,
+      "rsi6": 37.804,
+      "rsi14": 46.8473,
       "bollinger": {
-        "upper": 17.7332,
-        "middle": 15.4175,
-        "lower": 13.1018
+        "upper": 17.7327,
+        "middle": 15.42,
+        "lower": 13.1073
       },
       "signals": {
         "above_upper": false,
@@ -1103,17 +1103,17 @@
     },
     "1313": {
       "stock_id": "1313",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 12.2,
-      "ma20": 12.575,
-      "ma60": 11.9367,
-      "rsi6": 34.8184,
-      "rsi14": 45.53,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 12.15,
+      "ma20": 12.5725,
+      "ma60": 11.9567,
+      "rsi6": 33.6015,
+      "rsi14": 44.7842,
       "bollinger": {
-        "upper": 13.3323,
-        "middle": 12.575,
-        "lower": 11.8177
+        "upper": 13.335,
+        "middle": 12.5725,
+        "lower": 11.81
       },
       "signals": {
         "above_upper": false,
@@ -1128,17 +1128,17 @@
     },
     "1314": {
       "stock_id": "1314",
-      "date": "2026-10-22",
-      "trading_days": 235,
-      "close": 8.51,
-      "ma20": 8.88,
-      "ma60": 8.2987,
-      "rsi6": 32.4659,
-      "rsi14": 44.8921,
+      "date": "2026-10-27",
+      "trading_days": 236,
+      "close": 8.36,
+      "ma20": 8.861,
+      "ma60": 8.308,
+      "rsi6": 27.6161,
+      "rsi14": 41.9625,
       "bollinger": {
-        "upper": 9.2335,
-        "middle": 8.88,
-        "lower": 8.5265
+        "upper": 9.2777,
+        "middle": 8.861,
+        "lower": 8.4443
       },
       "signals": {
         "above_upper": false,
@@ -1153,17 +1153,17 @@
     },
     "1315": {
       "stock_id": "1315",
-      "date": "2026-10-22",
-      "trading_days": 235,
-      "close": 74.4,
-      "ma20": 70.785,
-      "ma60": 67.1817,
-      "rsi6": 67.8333,
-      "rsi14": 67.0266,
+      "date": "2026-10-27",
+      "trading_days": 236,
+      "close": 72.0,
+      "ma20": 70.975,
+      "ma60": 67.32,
+      "rsi6": 50.4952,
+      "rsi14": 56.0414,
       "bollinger": {
-        "upper": 75.4679,
-        "middle": 70.785,
-        "lower": 66.1021
+        "upper": 75.5295,
+        "middle": 70.975,
+        "lower": 66.4205
       },
       "signals": {
         "above_upper": false,
@@ -1178,17 +1178,17 @@
     },
     "1316": {
       "stock_id": "1316",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 10.2,
-      "ma20": 10.4375,
-      "ma60": 10.5255,
-      "rsi6": 32.2833,
-      "rsi14": 41.0385,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 10.35,
+      "ma20": 10.4275,
+      "ma60": 10.5315,
+      "rsi6": 48.4778,
+      "rsi14": 46.2517,
       "bollinger": {
-        "upper": 10.6961,
-        "middle": 10.4375,
-        "lower": 10.1789
+        "upper": 10.6834,
+        "middle": 10.4275,
+        "lower": 10.1716
       },
       "signals": {
         "above_upper": false,
@@ -1203,17 +1203,17 @@
     },
     "1319": {
       "stock_id": "1319",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 81.6,
-      "ma20": 80.295,
-      "ma60": 79.4817,
-      "rsi6": 53.161,
-      "rsi14": 55.1794,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 80.9,
+      "ma20": 80.355,
+      "ma60": 79.6617,
+      "rsi6": 43.3212,
+      "rsi14": 51.1445,
       "bollinger": {
-        "upper": 84.1089,
-        "middle": 80.295,
-        "lower": 76.4811
+        "upper": 84.1673,
+        "middle": 80.355,
+        "lower": 76.5427
       },
       "signals": {
         "above_upper": false,
@@ -1228,17 +1228,17 @@
     },
     "1321": {
       "stock_id": "1321",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 34.95,
-      "ma20": 33.5525,
-      "ma60": 32.74,
-      "rsi6": 59.2814,
-      "rsi14": 64.6119,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 35.25,
+      "ma20": 33.69,
+      "ma60": 32.7917,
+      "rsi6": 64.5431,
+      "rsi14": 66.8941,
       "bollinger": {
-        "upper": 36.4422,
-        "middle": 33.5525,
-        "lower": 30.6628
+        "upper": 36.6276,
+        "middle": 33.69,
+        "lower": 30.7524
       },
       "signals": {
         "above_upper": false,
@@ -1253,17 +1253,17 @@
     },
     "1323": {
       "stock_id": "1323",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 21.5,
-      "ma20": 21.56,
-      "ma60": 21.2383,
-      "rsi6": 38.3382,
-      "rsi14": 48.8858,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 21.45,
+      "ma20": 21.565,
+      "ma60": 21.2658,
+      "rsi6": 35.7783,
+      "rsi14": 47.5684,
       "bollinger": {
-        "upper": 22.0189,
-        "middle": 21.56,
-        "lower": 21.1011
+        "upper": 22.0168,
+        "middle": 21.565,
+        "lower": 21.1132
       },
       "signals": {
         "above_upper": false,
@@ -1278,17 +1278,17 @@
     },
     "1324": {
       "stock_id": "1324",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 9.86,
-      "ma20": 9.945,
-      "ma60": 10.02,
-      "rsi6": 33.7808,
-      "rsi14": 40.8806,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 9.88,
+      "ma20": 9.94,
+      "ma60": 10.0147,
+      "rsi6": 40.4241,
+      "rsi14": 42.9168,
       "bollinger": {
-        "upper": 10.0473,
-        "middle": 9.945,
-        "lower": 9.8427
+        "upper": 10.0447,
+        "middle": 9.94,
+        "lower": 9.8353
       },
       "signals": {
         "above_upper": false,
@@ -1303,17 +1303,17 @@
     },
     "1325": {
       "stock_id": "1325",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 26.85,
-      "ma20": 27.395,
-      "ma60": 26.5183,
-      "rsi6": 32.454,
-      "rsi14": 46.6657,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 26.6,
+      "ma20": 27.4325,
+      "ma60": 26.5117,
+      "rsi6": 29.6395,
+      "rsi14": 44.9608,
       "bollinger": {
-        "upper": 30.9125,
-        "middle": 27.395,
-        "lower": 23.8775
+        "upper": 30.8989,
+        "middle": 27.4325,
+        "lower": 23.9661
       },
       "signals": {
         "above_upper": false,
@@ -1328,22 +1328,22 @@
     },
     "1326": {
       "stock_id": "1326",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 73.0,
-      "ma20": 73.39,
-      "ma60": 66.6117,
-      "rsi6": 42.0091,
-      "rsi14": 50.3185,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 74.4,
+      "ma20": 73.785,
+      "ma60": 66.8367,
+      "rsi6": 47.0697,
+      "rsi14": 52.3761,
       "bollinger": {
-        "upper": 83.3318,
-        "middle": 73.39,
-        "lower": 63.4482
+        "upper": 83.215,
+        "middle": 73.785,
+        "lower": 64.355
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": false,
+        "above_ma20": true,
         "above_ma60": true,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
@@ -1353,21 +1353,21 @@
     },
     "1337": {
       "stock_id": "1337",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 4.41,
-      "ma20": 4.427,
-      "ma60": 4.5412,
-      "rsi6": 47.6258,
-      "rsi14": 44.2414,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 4.32,
+      "ma20": 4.422,
+      "ma60": 4.5348,
+      "rsi6": 28.4586,
+      "rsi14": 35.5726,
       "bollinger": {
-        "upper": 4.4807,
-        "middle": 4.427,
-        "lower": 4.3733
+        "upper": 4.4932,
+        "middle": 4.422,
+        "lower": 4.3508
       },
       "signals": {
         "above_upper": false,
-        "below_lower": false,
+        "below_lower": true,
         "above_ma20": false,
         "above_ma60": false,
         "rsi6_below_20": false,
@@ -1378,17 +1378,17 @@
     },
     "1338": {
       "stock_id": "1338",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 14.45,
-      "ma20": 14.8375,
-      "ma60": 14.7625,
-      "rsi6": 29.1176,
-      "rsi14": 41.5306,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 14.3,
+      "ma20": 14.815,
+      "ma60": 14.7433,
+      "rsi6": 21.6947,
+      "rsi14": 37.9307,
       "bollinger": {
-        "upper": 15.4374,
-        "middle": 14.8375,
-        "lower": 14.2376
+        "upper": 15.4585,
+        "middle": 14.815,
+        "lower": 14.1715
       },
       "signals": {
         "above_upper": false,
@@ -1403,17 +1403,17 @@
     },
     "1339": {
       "stock_id": "1339",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 41.2,
-      "ma20": 42.3175,
-      "ma60": 43.525,
-      "rsi6": 20.0146,
-      "rsi14": 33.0185,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 41.3,
+      "ma20": 42.2275,
+      "ma60": 43.4767,
+      "rsi6": 25.5513,
+      "rsi14": 34.7405,
       "bollinger": {
-        "upper": 43.182,
-        "middle": 42.3175,
-        "lower": 41.453
+        "upper": 43.1216,
+        "middle": 42.2275,
+        "lower": 41.3334
       },
       "signals": {
         "above_upper": false,
@@ -1428,17 +1428,17 @@
     },
     "1340": {
       "stock_id": "1340",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 4.98,
-      "ma20": 5.139,
-      "ma60": 5.1573,
-      "rsi6": 24.8692,
-      "rsi14": 35.7422,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 5.08,
+      "ma20": 5.131,
+      "ma60": 5.1553,
+      "rsi6": 52.0552,
+      "rsi14": 46.2877,
       "bollinger": {
-        "upper": 5.3094,
-        "middle": 5.139,
-        "lower": 4.9686
+        "upper": 5.2966,
+        "middle": 5.131,
+        "lower": 4.9654
       },
       "signals": {
         "above_upper": false,
@@ -1453,17 +1453,17 @@
     },
     "1341": {
       "stock_id": "1341",
-      "date": "2026-10-21",
-      "trading_days": 224,
-      "close": 58.4,
-      "ma20": 59.355,
-      "ma60": 59.2883,
-      "rsi6": 31.9598,
-      "rsi14": 41.7247,
+      "date": "2026-10-27",
+      "trading_days": 225,
+      "close": 59.0,
+      "ma20": 59.345,
+      "ma60": 59.295,
+      "rsi6": 48.5171,
+      "rsi14": 47.6043,
       "bollinger": {
         "upper": 60.3439,
-        "middle": 59.355,
-        "lower": 58.3661
+        "middle": 59.345,
+        "lower": 58.3461
       },
       "signals": {
         "above_upper": false,
@@ -1478,24 +1478,24 @@
     },
     "1342": {
       "stock_id": "1342",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 96.7,
-      "ma20": 99.99,
-      "ma60": 101.3717,
-      "rsi6": 17.4497,
-      "rsi14": 31.0682,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 98.1,
+      "ma20": 99.87,
+      "ma60": 101.2483,
+      "rsi6": 40.7953,
+      "rsi14": 40.2007,
       "bollinger": {
-        "upper": 102.6144,
-        "middle": 99.99,
-        "lower": 97.3656
+        "upper": 102.6072,
+        "middle": 99.87,
+        "lower": 97.1328
       },
       "signals": {
         "above_upper": false,
-        "below_lower": true,
+        "below_lower": false,
         "above_ma20": false,
         "above_ma60": false,
-        "rsi6_below_20": true,
+        "rsi6_below_20": false,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
         "rsi14_above_80": false
@@ -1503,17 +1503,17 @@
     },
     "1402": {
       "stock_id": "1402",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 28.9,
-      "ma20": 28.4575,
-      "ma60": 28.195,
-      "rsi6": 54.7597,
-      "rsi14": 54.5145,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 28.8,
+      "ma20": 28.505,
+      "ma60": 28.2183,
+      "rsi6": 51.4156,
+      "rsi14": 53.1991,
       "bollinger": {
-        "upper": 29.5734,
-        "middle": 28.4575,
-        "lower": 27.3416
+        "upper": 29.594,
+        "middle": 28.505,
+        "lower": 27.416
       },
       "signals": {
         "above_upper": false,
@@ -1528,17 +1528,17 @@
     },
     "1409": {
       "stock_id": "1409",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 24.9,
-      "ma20": 25.2525,
-      "ma60": 24.41,
-      "rsi6": 39.3678,
-      "rsi14": 47.6397,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 24.75,
+      "ma20": 25.285,
+      "ma60": 24.4675,
+      "rsi6": 37.0394,
+      "rsi14": 46.5358,
       "bollinger": {
-        "upper": 26.8316,
-        "middle": 25.2525,
-        "lower": 23.6734
+        "upper": 26.793,
+        "middle": 25.285,
+        "lower": 23.777
       },
       "signals": {
         "above_upper": false,
@@ -1553,17 +1553,17 @@
     },
     "1410": {
       "stock_id": "1410",
-      "date": "2026-10-22",
-      "trading_days": 233,
-      "close": 23.5,
-      "ma20": 23.825,
-      "ma60": 24.665,
-      "rsi6": 39.9664,
-      "rsi14": 38.4868,
+      "date": "2026-10-27",
+      "trading_days": 234,
+      "close": 23.6,
+      "ma20": 23.7925,
+      "ma60": 24.645,
+      "rsi6": 48.2256,
+      "rsi14": 41.4529,
       "bollinger": {
-        "upper": 24.4162,
-        "middle": 23.825,
-        "lower": 23.2338
+        "upper": 24.3575,
+        "middle": 23.7925,
+        "lower": 23.2275
       },
       "signals": {
         "above_upper": false,
@@ -1578,23 +1578,23 @@
     },
     "1413": {
       "stock_id": "1413",
-      "date": "2026-10-22",
-      "trading_days": 234,
-      "close": 9.43,
-      "ma20": 9.3005,
-      "ma60": 9.3225,
-      "rsi6": 59.48,
-      "rsi14": 54.7702,
+      "date": "2026-10-27",
+      "trading_days": 235,
+      "close": 9.12,
+      "ma20": 9.2815,
+      "ma60": 9.3092,
+      "rsi6": 35.6719,
+      "rsi14": 43.5479,
       "bollinger": {
-        "upper": 9.5303,
-        "middle": 9.3005,
-        "lower": 9.0707
+        "upper": 9.505,
+        "middle": 9.2815,
+        "lower": 9.058
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": true,
-        "above_ma60": true,
+        "above_ma20": false,
+        "above_ma60": false,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
@@ -1603,17 +1603,17 @@
     },
     "1414": {
       "stock_id": "1414",
-      "date": "2026-10-22",
-      "trading_days": 229,
-      "close": 17.35,
-      "ma20": 17.5,
-      "ma60": 18.35,
-      "rsi6": 38.5325,
-      "rsi14": 43.4343,
+      "date": "2026-10-27",
+      "trading_days": 230,
+      "close": 17.4,
+      "ma20": 17.51,
+      "ma60": 18.33,
+      "rsi6": 41.958,
+      "rsi14": 44.5766,
       "bollinger": {
-        "upper": 17.9025,
-        "middle": 17.5,
-        "lower": 17.0975
+        "upper": 17.8916,
+        "middle": 17.51,
+        "lower": 17.1284
       },
       "signals": {
         "above_upper": false,
@@ -1628,17 +1628,17 @@
     },
     "1416": {
       "stock_id": "1416",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 13.25,
-      "ma20": 12.2875,
-      "ma60": 11.7042,
-      "rsi6": 76.1322,
-      "rsi14": 75.4845,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 13.3,
+      "ma20": 12.3825,
+      "ma60": 11.7458,
+      "rsi6": 77.586,
+      "rsi14": 76.1387,
       "bollinger": {
-        "upper": 13.7636,
-        "middle": 12.2875,
-        "lower": 10.8114
+        "upper": 13.8625,
+        "middle": 12.3825,
+        "lower": 10.9025
       },
       "signals": {
         "above_upper": false,
@@ -1653,17 +1653,17 @@
     },
     "1417": {
       "stock_id": "1417",
-      "date": "2026-10-22",
-      "trading_days": 236,
+      "date": "2026-10-27",
+      "trading_days": 237,
       "close": 8.09,
-      "ma20": 8.114,
-      "ma60": 8.1883,
+      "ma20": 8.1175,
+      "ma60": 8.1842,
       "rsi6": 32.3321,
       "rsi14": 42.2432,
       "bollinger": {
-        "upper": 8.1834,
-        "middle": 8.114,
-        "lower": 8.0446
+        "upper": 8.1733,
+        "middle": 8.1175,
+        "lower": 8.0617
       },
       "signals": {
         "above_upper": false,
@@ -1678,23 +1678,23 @@
     },
     "1418": {
       "stock_id": "1418",
-      "date": "2026-10-22",
-      "trading_days": 234,
-      "close": 17.9,
-      "ma20": 18.335,
-      "ma60": 18.0117,
-      "rsi6": 29.7749,
-      "rsi14": 43.3129,
+      "date": "2026-10-27",
+      "trading_days": 235,
+      "close": 18.2,
+      "ma20": 18.3775,
+      "ma60": 18.005,
+      "rsi6": 48.8626,
+      "rsi14": 50.2923,
       "bollinger": {
-        "upper": 18.9801,
-        "middle": 18.335,
-        "lower": 17.6899
+        "upper": 18.8449,
+        "middle": 18.3775,
+        "lower": 17.9101
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
         "above_ma20": false,
-        "above_ma60": false,
+        "above_ma60": true,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
@@ -1703,17 +1703,17 @@
     },
     "1419": {
       "stock_id": "1419",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 63.5,
-      "ma20": 65.305,
-      "ma60": 65.915,
-      "rsi6": 29.7052,
-      "rsi14": 37.0456,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 64.5,
+      "ma20": 65.235,
+      "ma60": 65.8533,
+      "rsi6": 49.2983,
+      "rsi14": 45.0,
       "bollinger": {
-        "upper": 67.3115,
-        "middle": 65.305,
-        "lower": 63.2985
+        "upper": 67.2512,
+        "middle": 65.235,
+        "lower": 63.2188
       },
       "signals": {
         "above_upper": false,
@@ -1728,17 +1728,17 @@
     },
     "1423": {
       "stock_id": "1423",
-      "date": "2026-10-22",
-      "trading_days": 231,
+      "date": "2026-10-27",
+      "trading_days": 232,
       "close": 34.35,
-      "ma20": 34.79,
-      "ma60": 35.2417,
+      "ma20": 34.77,
+      "ma60": 35.2142,
       "rsi6": 45.3129,
       "rsi14": 45.9493,
       "bollinger": {
-        "upper": 35.9374,
-        "middle": 34.79,
-        "lower": 33.6426
+        "upper": 35.9334,
+        "middle": 34.77,
+        "lower": 33.6066
       },
       "signals": {
         "above_upper": false,
@@ -1753,17 +1753,17 @@
     },
     "1432": {
       "stock_id": "1432",
-      "date": "2026-10-22",
-      "trading_days": 236,
+      "date": "2026-10-27",
+      "trading_days": 237,
       "close": 14.9,
-      "ma20": 14.9825,
-      "ma60": 15.0267,
+      "ma20": 14.9775,
+      "ma60": 15.025,
       "rsi6": 18.5605,
       "rsi14": 36.4442,
       "bollinger": {
-        "upper": 15.0735,
-        "middle": 14.9825,
-        "lower": 14.8915
+        "upper": 15.0748,
+        "middle": 14.9775,
+        "lower": 14.8802
       },
       "signals": {
         "above_upper": false,
@@ -1778,17 +1778,17 @@
     },
     "1434": {
       "stock_id": "1434",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 19.3,
-      "ma20": 18.97,
-      "ma60": 18.1467,
-      "rsi6": 43.6775,
-      "rsi14": 54.4768,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 19.2,
+      "ma20": 19.0325,
+      "ma60": 18.1667,
+      "rsi6": 41.16,
+      "rsi14": 53.1011,
       "bollinger": {
-        "upper": 20.8827,
-        "middle": 18.97,
-        "lower": 17.0573
+        "upper": 20.8886,
+        "middle": 19.0325,
+        "lower": 17.1764
       },
       "signals": {
         "above_upper": false,
@@ -1828,17 +1828,17 @@
     },
     "1436": {
       "stock_id": "1436",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 35.2,
-      "ma20": 35.9525,
-      "ma60": 36.8617,
-      "rsi6": 24.7716,
-      "rsi14": 36.6831,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 35.45,
+      "ma20": 35.88,
+      "ma60": 36.8508,
+      "rsi6": 37.7027,
+      "rsi14": 40.26,
       "bollinger": {
-        "upper": 36.9857,
-        "middle": 35.9525,
-        "lower": 34.9193
+        "upper": 36.8378,
+        "middle": 35.88,
+        "lower": 34.9222
       },
       "signals": {
         "above_upper": false,
@@ -1853,23 +1853,23 @@
     },
     "1437": {
       "stock_id": "1437",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 31.2,
-      "ma20": 31.55,
-      "ma60": 31.5867,
-      "rsi6": 45.493,
-      "rsi14": 44.4347,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 31.65,
+      "ma20": 31.4925,
+      "ma60": 31.5992,
+      "rsi6": 58.6043,
+      "rsi14": 51.7706,
       "bollinger": {
-        "upper": 32.7024,
-        "middle": 31.55,
-        "lower": 30.3976
+        "upper": 32.4946,
+        "middle": 31.4925,
+        "lower": 30.4904
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": false,
-        "above_ma60": false,
+        "above_ma20": true,
+        "above_ma60": true,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
@@ -1878,22 +1878,22 @@
     },
     "1438": {
       "stock_id": "1438",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 21.55,
-      "ma20": 21.6125,
-      "ma60": 22.0608,
-      "rsi6": 45.3929,
-      "rsi14": 47.084,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 21.75,
+      "ma20": 21.615,
+      "ma60": 22.0583,
+      "rsi6": 55.4566,
+      "rsi14": 50.4955,
       "bollinger": {
-        "upper": 22.0331,
-        "middle": 21.6125,
-        "lower": 21.1919
+        "upper": 22.0382,
+        "middle": 21.615,
+        "lower": 21.1918
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": false,
+        "above_ma20": true,
         "above_ma60": false,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
@@ -1903,23 +1903,23 @@
     },
     "1439": {
       "stock_id": "1439",
-      "date": "2026-10-22",
-      "trading_days": 233,
-      "close": 28.3,
-      "ma20": 28.66,
-      "ma60": 28.7283,
-      "rsi6": 37.6421,
-      "rsi14": 45.4026,
+      "date": "2026-10-27",
+      "trading_days": 234,
+      "close": 29.0,
+      "ma20": 28.6425,
+      "ma60": 28.7658,
+      "rsi6": 57.1992,
+      "rsi14": 53.1682,
       "bollinger": {
-        "upper": 29.5973,
-        "middle": 28.66,
-        "lower": 27.7227
+        "upper": 29.5399,
+        "middle": 28.6425,
+        "lower": 27.7451
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": false,
-        "above_ma60": false,
+        "above_ma20": true,
+        "above_ma60": true,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
@@ -1928,17 +1928,17 @@
     },
     "1440": {
       "stock_id": "1440",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 13.9,
-      "ma20": 13.7675,
-      "ma60": 13.4642,
-      "rsi6": 48.9751,
-      "rsi14": 52.5747,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 13.95,
+      "ma20": 13.8025,
+      "ma60": 13.4883,
+      "rsi6": 51.6537,
+      "rsi14": 53.5001,
       "bollinger": {
-        "upper": 14.5319,
-        "middle": 13.7675,
-        "lower": 13.0031
+        "upper": 14.5322,
+        "middle": 13.8025,
+        "lower": 13.0728
       },
       "signals": {
         "above_upper": false,
@@ -1953,17 +1953,17 @@
     },
     "1441": {
       "stock_id": "1441",
-      "date": "2026-10-21",
-      "trading_days": 229,
-      "close": 9.71,
-      "ma20": 9.5615,
-      "ma60": 9.146,
-      "rsi6": 52.6183,
-      "rsi14": 57.4044,
+      "date": "2026-10-27",
+      "trading_days": 230,
+      "close": 9.98,
+      "ma20": 9.626,
+      "ma60": 9.1607,
+      "rsi6": 67.6051,
+      "rsi14": 63.5691,
       "bollinger": {
-        "upper": 10.4747,
-        "middle": 9.5615,
-        "lower": 8.6483
+        "upper": 10.4629,
+        "middle": 9.626,
+        "lower": 8.7891
       },
       "signals": {
         "above_upper": false,
@@ -1978,17 +1978,17 @@
     },
     "1442": {
       "stock_id": "1442",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 26.0,
-      "ma20": 26.905,
-      "ma60": 28.9475,
-      "rsi6": 33.6348,
-      "rsi14": 35.1764,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 26.35,
+      "ma20": 26.665,
+      "ma60": 28.8883,
+      "rsi6": 44.6548,
+      "rsi14": 39.4601,
       "bollinger": {
-        "upper": 29.0844,
-        "middle": 26.905,
-        "lower": 24.7256
+        "upper": 27.6535,
+        "middle": 26.665,
+        "lower": 25.6765
       },
       "signals": {
         "above_upper": false,
@@ -2003,22 +2003,22 @@
     },
     "1443": {
       "stock_id": "1443",
-      "date": "2026-10-22",
-      "trading_days": 231,
-      "close": 22.45,
-      "ma20": 22.9,
-      "ma60": 24.1217,
-      "rsi6": 41.1107,
-      "rsi14": 39.7592,
+      "date": "2026-10-27",
+      "trading_days": 232,
+      "close": 23.2,
+      "ma20": 22.8925,
+      "ma60": 24.0692,
+      "rsi6": 65.1204,
+      "rsi14": 51.509,
       "bollinger": {
-        "upper": 23.6294,
-        "middle": 22.9,
-        "lower": 22.1706
+        "upper": 23.6061,
+        "middle": 22.8925,
+        "lower": 22.1789
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": false,
+        "above_ma20": true,
         "above_ma60": false,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
@@ -2028,17 +2028,17 @@
     },
     "1444": {
       "stock_id": "1444",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 6.66,
-      "ma20": 6.894,
-      "ma60": 7.0365,
-      "rsi6": 25.105,
-      "rsi14": 38.321,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 6.61,
+      "ma20": 6.8815,
+      "ma60": 7.0233,
+      "rsi6": 22.1037,
+      "rsi14": 36.6439,
       "bollinger": {
-        "upper": 7.1,
-        "middle": 6.894,
-        "lower": 6.688
+        "upper": 7.1218,
+        "middle": 6.8815,
+        "lower": 6.6412
       },
       "signals": {
         "above_upper": false,
@@ -2053,13 +2053,13 @@
     },
     "1445": {
       "stock_id": "1445",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 10.0,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 10.05,
       "ma20": 10.119,
-      "ma60": 10.2763,
-      "rsi6": 39.4295,
-      "rsi14": 44.1918,
+      "ma60": 10.2655,
+      "rsi6": 43.7349,
+      "rsi14": 45.9936,
       "bollinger": {
         "upper": 10.4061,
         "middle": 10.119,
@@ -2078,17 +2078,17 @@
     },
     "1446": {
       "stock_id": "1446",
-      "date": "2026-10-22",
-      "trading_days": 236,
+      "date": "2026-10-27",
+      "trading_days": 237,
       "close": 13.3,
-      "ma20": 13.4525,
-      "ma60": 13.5692,
+      "ma20": 13.435,
+      "ma60": 13.5625,
       "rsi6": 27.3607,
       "rsi14": 39.1382,
       "bollinger": {
-        "upper": 13.6461,
-        "middle": 13.4525,
-        "lower": 13.2589
+        "upper": 13.6169,
+        "middle": 13.435,
+        "lower": 13.2531
       },
       "signals": {
         "above_upper": false,
@@ -2103,17 +2103,17 @@
     },
     "1447": {
       "stock_id": "1447",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 6.22,
-      "ma20": 6.4835,
-      "ma60": 6.7013,
-      "rsi6": 24.1615,
-      "rsi14": 37.3642,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 6.15,
+      "ma20": 6.471,
+      "ma60": 6.6867,
+      "rsi6": 20.7006,
+      "rsi14": 35.318,
       "bollinger": {
-        "upper": 6.7127,
-        "middle": 6.4835,
-        "lower": 6.2543
+        "upper": 6.7407,
+        "middle": 6.471,
+        "lower": 6.2013
       },
       "signals": {
         "above_upper": false,
@@ -2128,17 +2128,17 @@
     },
     "1449": {
       "stock_id": "1449",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 12.1,
-      "ma20": 12.4875,
-      "ma60": 12.3725,
-      "rsi6": 28.9083,
-      "rsi14": 41.0332,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 11.95,
+      "ma20": 12.4675,
+      "ma60": 12.3675,
+      "rsi6": 24.0556,
+      "rsi14": 38.1014,
       "bollinger": {
-        "upper": 12.9992,
-        "middle": 12.4875,
-        "lower": 11.9758
+        "upper": 13.0281,
+        "middle": 12.4675,
+        "lower": 11.9069
       },
       "signals": {
         "above_upper": false,
@@ -2153,17 +2153,17 @@
     },
     "1451": {
       "stock_id": "1451",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 17.0,
-      "ma20": 17.0475,
-      "ma60": 17.235,
-      "rsi6": 37.3771,
-      "rsi14": 43.0583,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 16.95,
+      "ma20": 17.04,
+      "ma60": 17.2275,
+      "rsi6": 29.5979,
+      "rsi14": 39.8142,
       "bollinger": {
-        "upper": 17.1719,
-        "middle": 17.0475,
-        "lower": 16.9231
+        "upper": 17.1688,
+        "middle": 17.04,
+        "lower": 16.9112
       },
       "signals": {
         "above_upper": false,
@@ -2178,22 +2178,22 @@
     },
     "1452": {
       "stock_id": "1452",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 10.65,
-      "ma20": 10.765,
-      "ma60": 11.1192,
-      "rsi6": 40.8196,
-      "rsi14": 42.9522,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 10.9,
+      "ma20": 10.7725,
+      "ma60": 11.11,
+      "rsi6": 54.8156,
+      "rsi14": 50.8,
       "bollinger": {
-        "upper": 11.0142,
-        "middle": 10.765,
-        "lower": 10.5158
+        "upper": 11.0284,
+        "middle": 10.7725,
+        "lower": 10.5166
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": false,
+        "above_ma20": true,
         "above_ma60": false,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
@@ -2203,17 +2203,17 @@
     },
     "1453": {
       "stock_id": "1453",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 11.05,
-      "ma20": 10.9225,
-      "ma60": 11.0658,
-      "rsi6": 60.8739,
-      "rsi14": 53.4887,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 11.0,
+      "ma20": 10.9275,
+      "ma60": 11.0633,
+      "rsi6": 54.8467,
+      "rsi14": 51.2701,
       "bollinger": {
-        "upper": 11.0584,
-        "middle": 10.9225,
-        "lower": 10.7866
+        "upper": 11.0671,
+        "middle": 10.9275,
+        "lower": 10.7879
       },
       "signals": {
         "above_upper": false,
@@ -2228,17 +2228,17 @@
     },
     "1454": {
       "stock_id": "1454",
-      "date": "2026-10-22",
-      "trading_days": 235,
+      "date": "2026-10-27",
+      "trading_days": 236,
       "close": 12.0,
-      "ma20": 12.41,
-      "ma60": 12.5017,
+      "ma20": 12.3825,
+      "ma60": 12.4958,
       "rsi6": 28.9027,
       "rsi14": 40.4173,
       "bollinger": {
-        "upper": 13.1779,
-        "middle": 12.41,
-        "lower": 11.6421
+        "upper": 13.1675,
+        "middle": 12.3825,
+        "lower": 11.5975
       },
       "signals": {
         "above_upper": false,
@@ -2253,17 +2253,17 @@
     },
     "1455": {
       "stock_id": "1455",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 9.75,
-      "ma20": 9.976,
-      "ma60": 9.76,
-      "rsi6": 35.8539,
-      "rsi14": 45.3565,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 9.61,
+      "ma20": 9.971,
+      "ma60": 9.7715,
+      "rsi6": 30.2948,
+      "rsi14": 42.5559,
       "bollinger": {
-        "upper": 10.4947,
-        "middle": 9.976,
-        "lower": 9.4573
+        "upper": 10.5017,
+        "middle": 9.971,
+        "lower": 9.4403
       },
       "signals": {
         "above_upper": false,
@@ -2278,17 +2278,17 @@
     },
     "1456": {
       "stock_id": "1456",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 15.4,
-      "ma20": 14.82,
-      "ma60": 14.2508,
-      "rsi6": 62.3675,
-      "rsi14": 58.6897,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 15.5,
+      "ma20": 14.885,
+      "ma60": 14.2775,
+      "rsi6": 64.2137,
+      "rsi14": 59.6883,
       "bollinger": {
-        "upper": 15.664,
-        "middle": 14.82,
-        "lower": 13.976
+        "upper": 15.7283,
+        "middle": 14.885,
+        "lower": 14.0417
       },
       "signals": {
         "above_upper": false,
@@ -2303,17 +2303,17 @@
     },
     "1457": {
       "stock_id": "1457",
-      "date": "2026-10-22",
-      "trading_days": 236,
+      "date": "2026-10-27",
+      "trading_days": 237,
       "close": 14.55,
-      "ma20": 14.385,
-      "ma60": 14.3717,
+      "ma20": 14.3875,
+      "ma60": 14.375,
       "rsi6": 58.4394,
       "rsi14": 54.9207,
       "bollinger": {
-        "upper": 14.6382,
-        "middle": 14.385,
-        "lower": 14.1318
+        "upper": 14.6461,
+        "middle": 14.3875,
+        "lower": 14.1289
       },
       "signals": {
         "above_upper": false,
@@ -2328,17 +2328,17 @@
     },
     "1459": {
       "stock_id": "1459",
-      "date": "2026-10-22",
-      "trading_days": 229,
-      "close": 18.0,
-      "ma20": 17.76,
-      "ma60": 15.5408,
-      "rsi6": 49.5785,
-      "rsi14": 58.4749,
+      "date": "2026-10-27",
+      "trading_days": 230,
+      "close": 17.9,
+      "ma20": 17.865,
+      "ma60": 15.6442,
+      "rsi6": 45.6271,
+      "rsi14": 57.0959,
       "bollinger": {
-        "upper": 20.1177,
-        "middle": 17.76,
-        "lower": 15.4023
+        "upper": 20.0445,
+        "middle": 17.865,
+        "lower": 15.6855
       },
       "signals": {
         "above_upper": false,
@@ -2353,17 +2353,17 @@
     },
     "1460": {
       "stock_id": "1460",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 6.05,
-      "ma20": 6.17,
-      "ma60": 6.4482,
-      "rsi6": 23.183,
-      "rsi14": 30.2754,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 6.1,
+      "ma20": 6.16,
+      "ma60": 6.4362,
+      "rsi6": 42.6023,
+      "rsi14": 36.994,
       "bollinger": {
-        "upper": 6.3089,
-        "middle": 6.17,
-        "lower": 6.0311
+        "upper": 6.2884,
+        "middle": 6.16,
+        "lower": 6.0316
       },
       "signals": {
         "above_upper": false,
@@ -2378,17 +2378,42 @@
     },
     "1463": {
       "stock_id": "1463",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 17.6,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 17.65,
       "ma20": 17.6925,
-      "ma60": 17.6058,
-      "rsi6": 33.6287,
-      "rsi14": 47.1266,
+      "ma60": 17.6033,
+      "rsi6": 39.435,
+      "rsi14": 49.0403,
       "bollinger": {
         "upper": 18.035,
         "middle": 17.6925,
         "lower": 17.35
+      },
+      "signals": {
+        "above_upper": false,
+        "below_lower": false,
+        "above_ma20": false,
+        "above_ma60": true,
+        "rsi6_below_20": false,
+        "rsi6_above_80": false,
+        "rsi14_below_20": false,
+        "rsi14_above_80": false
+      }
+    },
+    "1464": {
+      "stock_id": "1464",
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 9.88,
+      "ma20": 9.936,
+      "ma60": 10.0828,
+      "rsi6": 36.8043,
+      "rsi14": 38.4452,
+      "bollinger": {
+        "upper": 10.0176,
+        "middle": 9.936,
+        "lower": 9.8544
       },
       "signals": {
         "above_upper": false,
@@ -2401,44 +2426,19 @@
         "rsi14_above_80": false
       }
     },
-    "1464": {
-      "stock_id": "1464",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 9.86,
-      "ma20": 9.942,
-      "ma60": 10.0907,
-      "rsi6": 24.669,
-      "rsi14": 34.8698,
-      "bollinger": {
-        "upper": 10.0239,
-        "middle": 9.942,
-        "lower": 9.8601
-      },
-      "signals": {
-        "above_upper": false,
-        "below_lower": true,
-        "above_ma20": false,
-        "above_ma60": false,
-        "rsi6_below_20": false,
-        "rsi6_above_80": false,
-        "rsi14_below_20": false,
-        "rsi14_above_80": false
-      }
-    },
     "1465": {
       "stock_id": "1465",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 11.45,
-      "ma20": 11.6875,
-      "ma60": 11.9733,
-      "rsi6": 28.1485,
-      "rsi14": 38.0023,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 11.55,
+      "ma20": 11.685,
+      "ma60": 11.9583,
+      "rsi6": 38.3505,
+      "rsi14": 42.3538,
       "bollinger": {
-        "upper": 11.9666,
-        "middle": 11.6875,
-        "lower": 11.4084
+        "upper": 11.968,
+        "middle": 11.685,
+        "lower": 11.402
       },
       "signals": {
         "above_upper": false,
@@ -2453,17 +2453,17 @@
     },
     "1466": {
       "stock_id": "1466",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 14.4,
-      "ma20": 14.525,
-      "ma60": 15.3992,
-      "rsi6": 47.7499,
-      "rsi14": 43.5861,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 14.45,
+      "ma20": 14.5,
+      "ma60": 15.3717,
+      "rsi6": 50.3509,
+      "rsi14": 44.732,
       "bollinger": {
-        "upper": 15.0174,
-        "middle": 14.525,
-        "lower": 14.0326
+        "upper": 14.9528,
+        "middle": 14.5,
+        "lower": 14.0472
       },
       "signals": {
         "above_upper": false,
@@ -2478,17 +2478,17 @@
     },
     "1467": {
       "stock_id": "1467",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 7.91,
-      "ma20": 8.112,
-      "ma60": 8.4788,
-      "rsi6": 31.4469,
-      "rsi14": 41.6419,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 7.82,
+      "ma20": 8.0955,
+      "ma60": 8.4383,
+      "rsi6": 25.5626,
+      "rsi14": 39.0901,
       "bollinger": {
-        "upper": 8.4243,
-        "middle": 8.112,
-        "lower": 7.7997
+        "upper": 8.4319,
+        "middle": 8.0955,
+        "lower": 7.7591
       },
       "signals": {
         "above_upper": false,
@@ -2503,23 +2503,23 @@
     },
     "1468": {
       "stock_id": "1468",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 13.25,
-      "ma20": 13.2325,
-      "ma60": 13.2925,
-      "rsi6": 51.2351,
-      "rsi14": 50.7341,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 13.3,
+      "ma20": 13.2475,
+      "ma60": 13.2958,
+      "rsi6": 55.0497,
+      "rsi14": 52.1828,
       "bollinger": {
-        "upper": 13.5123,
-        "middle": 13.2325,
-        "lower": 12.9527
+        "upper": 13.5073,
+        "middle": 13.2475,
+        "lower": 12.9877
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
         "above_ma20": true,
-        "above_ma60": false,
+        "above_ma60": true,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
@@ -2553,24 +2553,24 @@
     },
     "1471": {
       "stock_id": "1471",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 9.01,
-      "ma20": 9.289,
-      "ma60": 9.4983,
-      "rsi6": 18.6874,
-      "rsi14": 32.4039,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 9.27,
+      "ma20": 9.2785,
+      "ma60": 9.4962,
+      "rsi6": 62.0757,
+      "rsi14": 47.944,
       "bollinger": {
-        "upper": 9.6194,
-        "middle": 9.289,
-        "lower": 8.9586
+        "upper": 9.5971,
+        "middle": 9.2785,
+        "lower": 8.9599
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
         "above_ma20": false,
         "above_ma60": false,
-        "rsi6_below_20": true,
+        "rsi6_below_20": false,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
         "rsi14_above_80": false
@@ -2578,22 +2578,22 @@
     },
     "1472": {
       "stock_id": "1472",
-      "date": "2026-10-22",
-      "trading_days": 231,
-      "close": 88.6,
-      "ma20": 88.415,
-      "ma60": 88.64,
-      "rsi6": 50.6063,
-      "rsi14": 50.4146,
+      "date": "2026-10-27",
+      "trading_days": 232,
+      "close": 88.3,
+      "ma20": 88.475,
+      "ma60": 88.6383,
+      "rsi6": 45.9824,
+      "rsi14": 48.5927,
       "bollinger": {
-        "upper": 89.7953,
-        "middle": 88.415,
-        "lower": 87.0347
+        "upper": 89.719,
+        "middle": 88.475,
+        "lower": 87.231
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": true,
+        "above_ma20": false,
         "above_ma60": false,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
@@ -2603,17 +2603,17 @@
     },
     "1473": {
       "stock_id": "1473",
-      "date": "2026-10-22",
-      "trading_days": 236,
+      "date": "2026-10-27",
+      "trading_days": 237,
       "close": 18.85,
-      "ma20": 19.0675,
-      "ma60": 19.64,
+      "ma20": 19.035,
+      "ma60": 19.62,
       "rsi6": 43.1949,
       "rsi14": 34.9795,
       "bollinger": {
-        "upper": 19.5379,
-        "middle": 19.0675,
-        "lower": 18.5971
+        "upper": 19.4699,
+        "middle": 19.035,
+        "lower": 18.6001
       },
       "signals": {
         "above_upper": false,
@@ -2628,13 +2628,13 @@
     },
     "1474": {
       "stock_id": "1474",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 9.98,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 10.0,
       "ma20": 9.996,
-      "ma60": 10.017,
-      "rsi6": 48.7947,
-      "rsi14": 48.7335,
+      "ma60": 10.0128,
+      "rsi6": 53.7066,
+      "rsi14": 50.4731,
       "bollinger": {
         "upper": 10.0701,
         "middle": 9.996,
@@ -2643,7 +2643,7 @@
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": false,
+        "above_ma20": true,
         "above_ma60": false,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
@@ -2653,17 +2653,17 @@
     },
     "1475": {
       "stock_id": "1475",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 25.2,
-      "ma20": 25.79,
-      "ma60": 26.1917,
-      "rsi6": 32.4686,
-      "rsi14": 37.3038,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 25.1,
+      "ma20": 25.74,
+      "ma60": 26.1683,
+      "rsi6": 29.1462,
+      "rsi14": 35.7738,
       "bollinger": {
-        "upper": 26.4926,
-        "middle": 25.79,
-        "lower": 25.0874
+        "upper": 26.4881,
+        "middle": 25.74,
+        "lower": 24.9919
       },
       "signals": {
         "above_upper": false,
@@ -2678,17 +2678,17 @@
     },
     "1476": {
       "stock_id": "1476",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 324.5,
-      "ma20": 299.675,
-      "ma60": 311.225,
-      "rsi6": 71.2904,
-      "rsi14": 66.4107,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 323.0,
+      "ma20": 302.125,
+      "ma60": 310.9583,
+      "rsi6": 66.305,
+      "rsi14": 64.6197,
       "bollinger": {
-        "upper": 342.1783,
-        "middle": 299.675,
-        "lower": 257.1717
+        "upper": 344.0712,
+        "middle": 302.125,
+        "lower": 260.1788
       },
       "signals": {
         "above_upper": false,
@@ -2703,17 +2703,17 @@
     },
     "1477": {
       "stock_id": "1477",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 209.0,
-      "ma20": 200.8,
-      "ma60": 203.5417,
-      "rsi6": 69.8351,
-      "rsi14": 63.9441,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 207.0,
+      "ma20": 201.625,
+      "ma60": 203.4167,
+      "rsi6": 54.7795,
+      "rsi14": 58.8489,
       "bollinger": {
-        "upper": 215.9242,
-        "middle": 200.8,
-        "lower": 185.6758
+        "upper": 216.202,
+        "middle": 201.625,
+        "lower": 187.048
       },
       "signals": {
         "above_upper": false,
@@ -2728,17 +2728,17 @@
     },
     "1503": {
       "stock_id": "1503",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 192.0,
-      "ma20": 196.75,
-      "ma60": 198.5583,
-      "rsi6": 36.7284,
-      "rsi14": 42.2376,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 191.5,
+      "ma20": 196.475,
+      "ma60": 198.575,
+      "rsi6": 35.3412,
+      "rsi14": 41.6475,
       "bollinger": {
-        "upper": 203.0943,
-        "middle": 196.75,
-        "lower": 190.4057
+        "upper": 203.2165,
+        "middle": 196.475,
+        "lower": 189.7335
       },
       "signals": {
         "above_upper": false,
@@ -2753,23 +2753,23 @@
     },
     "1504": {
       "stock_id": "1504",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 69.7,
-      "ma20": 69.815,
-      "ma60": 69.5483,
-      "rsi6": 48.4255,
-      "rsi14": 48.9012,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 69.0,
+      "ma20": 69.835,
+      "ma60": 69.6483,
+      "rsi6": 43.1772,
+      "rsi14": 46.4876,
       "bollinger": {
-        "upper": 72.4144,
-        "middle": 69.815,
-        "lower": 67.2156
+        "upper": 72.4027,
+        "middle": 69.835,
+        "lower": 67.2673
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
         "above_ma20": false,
-        "above_ma60": true,
+        "above_ma60": false,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
@@ -2778,17 +2778,17 @@
     },
     "1506": {
       "stock_id": "1506",
-      "date": "2026-10-22",
-      "trading_days": 236,
+      "date": "2026-10-27",
+      "trading_days": 237,
       "close": 9.5,
-      "ma20": 9.6125,
-      "ma60": 9.9703,
+      "ma20": 9.601,
+      "ma60": 9.9553,
       "rsi6": 28.0097,
       "rsi14": 34.2309,
       "bollinger": {
-        "upper": 9.7722,
-        "middle": 9.6125,
-        "lower": 9.4528
+        "upper": 9.7583,
+        "middle": 9.601,
+        "lower": 9.4437
       },
       "signals": {
         "above_upper": false,
@@ -2803,17 +2803,17 @@
     },
     "1512": {
       "stock_id": "1512",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 6.25,
-      "ma20": 6.2325,
-      "ma60": 6.3885,
-      "rsi6": 48.285,
-      "rsi14": 48.5539,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 6.24,
+      "ma20": 6.235,
+      "ma60": 6.3808,
+      "rsi6": 47.0953,
+      "rsi14": 47.9713,
       "bollinger": {
-        "upper": 6.3825,
-        "middle": 6.2325,
-        "lower": 6.0825
+        "upper": 6.3838,
+        "middle": 6.235,
+        "lower": 6.0862
       },
       "signals": {
         "above_upper": false,
@@ -2828,17 +2828,17 @@
     },
     "1513": {
       "stock_id": "1513",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 160.0,
-      "ma20": 165.65,
-      "ma60": 164.0417,
-      "rsi6": 28.2921,
-      "rsi14": 38.6869,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 159.0,
+      "ma20": 165.3,
+      "ma60": 164.15,
+      "rsi6": 25.3339,
+      "rsi14": 36.9801,
       "bollinger": {
-        "upper": 170.5906,
-        "middle": 165.65,
-        "lower": 160.7094
+        "upper": 171.0219,
+        "middle": 165.3,
+        "lower": 159.5781
       },
       "signals": {
         "above_upper": false,
@@ -2853,17 +2853,17 @@
     },
     "1514": {
       "stock_id": "1514",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 98.6,
-      "ma20": 101.905,
-      "ma60": 101.3867,
-      "rsi6": 33.7255,
-      "rsi14": 40.9327,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 98.0,
+      "ma20": 101.705,
+      "ma60": 101.3367,
+      "rsi6": 30.8003,
+      "rsi14": 39.4821,
       "bollinger": {
-        "upper": 105.3217,
-        "middle": 101.905,
-        "lower": 98.4883
+        "upper": 105.521,
+        "middle": 101.705,
+        "lower": 97.889
       },
       "signals": {
         "above_upper": false,
@@ -2878,21 +2878,21 @@
     },
     "1515": {
       "stock_id": "1515",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 27.55,
-      "ma20": 28.86,
-      "ma60": 30.4867,
-      "rsi6": 33.567,
-      "rsi14": 38.4827,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 27.75,
+      "ma20": 28.74,
+      "ma60": 30.45,
+      "rsi6": 37.8582,
+      "rsi14": 40.1034,
       "bollinger": {
-        "upper": 30.1236,
-        "middle": 28.86,
-        "lower": 27.5964
+        "upper": 29.9452,
+        "middle": 28.74,
+        "lower": 27.5348
       },
       "signals": {
         "above_upper": false,
-        "below_lower": true,
+        "below_lower": false,
         "above_ma20": false,
         "above_ma60": false,
         "rsi6_below_20": false,
@@ -2903,17 +2903,17 @@
     },
     "1517": {
       "stock_id": "1517",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 10.3,
-      "ma20": 10.3375,
-      "ma60": 10.9092,
-      "rsi6": 47.2045,
-      "rsi14": 43.3982,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 10.25,
+      "ma20": 10.3325,
+      "ma60": 10.89,
+      "rsi6": 41.6079,
+      "rsi14": 41.5972,
       "bollinger": {
-        "upper": 10.482,
-        "middle": 10.3375,
-        "lower": 10.193
+        "upper": 10.4817,
+        "middle": 10.3325,
+        "lower": 10.1833
       },
       "signals": {
         "above_upper": false,
@@ -2928,24 +2928,24 @@
     },
     "1519": {
       "stock_id": "1519",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 615.0,
-      "ma20": 677.75,
-      "ma60": 700.3667,
-      "rsi6": 24.9713,
-      "rsi14": 33.3021,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 585.0,
+      "ma20": 671.4,
+      "ma60": 698.9833,
+      "rsi6": 17.9557,
+      "rsi14": 28.7777,
       "bollinger": {
-        "upper": 737.7596,
-        "middle": 677.75,
-        "lower": 617.7404
+        "upper": 741.5838,
+        "middle": 671.4,
+        "lower": 601.2162
       },
       "signals": {
         "above_upper": false,
         "below_lower": true,
         "above_ma20": false,
         "above_ma60": false,
-        "rsi6_below_20": false,
+        "rsi6_below_20": true,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
         "rsi14_above_80": false
@@ -2953,21 +2953,21 @@
     },
     "1521": {
       "stock_id": "1521",
-      "date": "2026-10-22",
-      "trading_days": 236,
+      "date": "2026-10-27",
+      "trading_days": 237,
       "close": 25.0,
-      "ma20": 25.685,
-      "ma60": 25.4675,
+      "ma20": 25.615,
+      "ma60": 25.4692,
       "rsi6": 24.9209,
       "rsi14": 39.8957,
       "bollinger": {
-        "upper": 26.3262,
-        "middle": 25.685,
-        "lower": 25.0438
+        "upper": 26.234,
+        "middle": 25.615,
+        "lower": 24.996
       },
       "signals": {
         "above_upper": false,
-        "below_lower": true,
+        "below_lower": false,
         "above_ma20": false,
         "above_ma60": false,
         "rsi6_below_20": false,
@@ -2978,67 +2978,17 @@
     },
     "1522": {
       "stock_id": "1522",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 26.5,
-      "ma20": 26.4775,
-      "ma60": 27.1017,
-      "rsi6": 45.3803,
-      "rsi14": 48.3752,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 26.45,
+      "ma20": 26.485,
+      "ma60": 27.0825,
+      "rsi6": 43.7861,
+      "rsi14": 47.7482,
       "bollinger": {
-        "upper": 27.3409,
-        "middle": 26.4775,
-        "lower": 25.6141
-      },
-      "signals": {
-        "above_upper": false,
-        "below_lower": false,
-        "above_ma20": true,
-        "above_ma60": false,
-        "rsi6_below_20": false,
-        "rsi6_above_80": false,
-        "rsi14_below_20": false,
-        "rsi14_above_80": false
-      }
-    },
-    "1524": {
-      "stock_id": "1524",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 26.65,
-      "ma20": 26.5125,
-      "ma60": 26.6467,
-      "rsi6": 41.2454,
-      "rsi14": 49.5977,
-      "bollinger": {
-        "upper": 27.6902,
-        "middle": 26.5125,
-        "lower": 25.3348
-      },
-      "signals": {
-        "above_upper": false,
-        "below_lower": false,
-        "above_ma20": true,
-        "above_ma60": true,
-        "rsi6_below_20": false,
-        "rsi6_above_80": false,
-        "rsi14_below_20": false,
-        "rsi14_above_80": false
-      }
-    },
-    "1525": {
-      "stock_id": "1525",
-      "date": "2026-10-22",
-      "trading_days": 235,
-      "close": 62.8,
-      "ma20": 63.195,
-      "ma60": 65.7383,
-      "rsi6": 50.2122,
-      "rsi14": 44.7358,
-      "bollinger": {
-        "upper": 65.0022,
-        "middle": 63.195,
-        "lower": 61.3878
+        "upper": 27.3447,
+        "middle": 26.485,
+        "lower": 25.6253
       },
       "signals": {
         "above_upper": false,
@@ -3051,19 +3001,69 @@
         "rsi14_above_80": false
       }
     },
+    "1524": {
+      "stock_id": "1524",
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 26.65,
+      "ma20": 26.54,
+      "ma60": 26.6633,
+      "rsi6": 41.2454,
+      "rsi14": 49.5977,
+      "bollinger": {
+        "upper": 27.7034,
+        "middle": 26.54,
+        "lower": 25.3766
+      },
+      "signals": {
+        "above_upper": false,
+        "below_lower": false,
+        "above_ma20": true,
+        "above_ma60": false,
+        "rsi6_below_20": false,
+        "rsi6_above_80": false,
+        "rsi14_below_20": false,
+        "rsi14_above_80": false
+      }
+    },
+    "1525": {
+      "stock_id": "1525",
+      "date": "2026-10-27",
+      "trading_days": 236,
+      "close": 63.4,
+      "ma20": 63.135,
+      "ma60": 65.6817,
+      "rsi6": 56.1885,
+      "rsi14": 48.5014,
+      "bollinger": {
+        "upper": 64.8277,
+        "middle": 63.135,
+        "lower": 61.4423
+      },
+      "signals": {
+        "above_upper": false,
+        "below_lower": false,
+        "above_ma20": true,
+        "above_ma60": false,
+        "rsi6_below_20": false,
+        "rsi6_above_80": false,
+        "rsi14_below_20": false,
+        "rsi14_above_80": false
+      }
+    },
     "1526": {
       "stock_id": "1526",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 16.6,
-      "ma20": 15.1925,
-      "ma60": 16.1758,
-      "rsi6": 75.6183,
-      "rsi14": 64.6453,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 17.0,
+      "ma20": 15.31,
+      "ma60": 16.1725,
+      "rsi6": 80.0373,
+      "rsi14": 67.979,
       "bollinger": {
-        "upper": 16.3729,
-        "middle": 15.1925,
-        "lower": 14.0121
+        "upper": 16.7002,
+        "middle": 15.31,
+        "lower": 13.9198
       },
       "signals": {
         "above_upper": true,
@@ -3071,28 +3071,28 @@
         "above_ma20": true,
         "above_ma60": true,
         "rsi6_below_20": false,
-        "rsi6_above_80": false,
+        "rsi6_above_80": true,
         "rsi14_below_20": false,
         "rsi14_above_80": false
       }
     },
     "1527": {
       "stock_id": "1527",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 32.05,
-      "ma20": 32.52,
-      "ma60": 32.6567,
-      "rsi6": 27.0025,
-      "rsi14": 37.1768,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 32.1,
+      "ma20": 32.49,
+      "ma60": 32.6325,
+      "rsi6": 32.1073,
+      "rsi14": 38.968,
       "bollinger": {
-        "upper": 32.962,
-        "middle": 32.52,
-        "lower": 32.078
+        "upper": 32.9597,
+        "middle": 32.49,
+        "lower": 32.0203
       },
       "signals": {
         "above_upper": false,
-        "below_lower": true,
+        "below_lower": false,
         "above_ma20": false,
         "above_ma60": false,
         "rsi6_below_20": false,
@@ -3103,17 +3103,17 @@
     },
     "1528": {
       "stock_id": "1528",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 25.9,
-      "ma20": 24.6825,
-      "ma60": 21.3942,
-      "rsi6": 67.4382,
-      "rsi14": 61.2197,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 25.15,
+      "ma20": 24.6325,
+      "ma60": 21.5167,
+      "rsi6": 55.5726,
+      "rsi14": 56.463,
       "bollinger": {
-        "upper": 26.5672,
-        "middle": 24.6825,
-        "lower": 22.7978
+        "upper": 26.4088,
+        "middle": 24.6325,
+        "lower": 22.8562
       },
       "signals": {
         "above_upper": false,
@@ -3128,17 +3128,17 @@
     },
     "1529": {
       "stock_id": "1529",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 14.7,
-      "ma20": 15.42,
-      "ma60": 16.2333,
-      "rsi6": 28.5293,
-      "rsi14": 35.6067,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 14.5,
+      "ma20": 15.3275,
+      "ma60": 16.185,
+      "rsi6": 23.0636,
+      "rsi14": 33.2513,
       "bollinger": {
-        "upper": 16.3302,
-        "middle": 15.42,
-        "lower": 14.5098
+        "upper": 16.2166,
+        "middle": 15.3275,
+        "lower": 14.4384
       },
       "signals": {
         "above_upper": false,
@@ -3153,17 +3153,17 @@
     },
     "1530": {
       "stock_id": "1530",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 26.5,
-      "ma20": 26.865,
-      "ma60": 27.8167,
-      "rsi6": 39.419,
-      "rsi14": 42.8666,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 26.35,
+      "ma20": 26.8425,
+      "ma60": 27.7842,
+      "rsi6": 36.3494,
+      "rsi14": 41.528,
       "bollinger": {
-        "upper": 27.9795,
-        "middle": 26.865,
-        "lower": 25.7505
+        "upper": 27.9793,
+        "middle": 26.8425,
+        "lower": 25.7057
       },
       "signals": {
         "above_upper": false,
@@ -3178,17 +3178,17 @@
     },
     "1531": {
       "stock_id": "1531",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 11.4,
-      "ma20": 11.59,
-      "ma60": 12.2158,
-      "rsi6": 35.4873,
-      "rsi14": 40.219,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 11.55,
+      "ma20": 11.58,
+      "ma60": 12.1942,
+      "rsi6": 50.3695,
+      "rsi14": 45.5014,
       "bollinger": {
-        "upper": 11.9486,
-        "middle": 11.59,
-        "lower": 11.2314
+        "upper": 11.9313,
+        "middle": 11.58,
+        "lower": 11.2287
       },
       "signals": {
         "above_upper": false,
@@ -3203,23 +3203,23 @@
     },
     "1532": {
       "stock_id": "1532",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 21.75,
-      "ma20": 21.9075,
-      "ma60": 22.2775,
-      "rsi6": 47.28,
-      "rsi14": 43.0393,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 22.8,
+      "ma20": 21.9225,
+      "ma60": 22.2817,
+      "rsi6": 78.6784,
+      "rsi14": 63.2562,
       "bollinger": {
-        "upper": 22.4951,
-        "middle": 21.9075,
-        "lower": 21.3199
+        "upper": 22.5809,
+        "middle": 21.9225,
+        "lower": 21.2641
       },
       "signals": {
-        "above_upper": false,
+        "above_upper": true,
         "below_lower": false,
-        "above_ma20": false,
-        "above_ma60": false,
+        "above_ma20": true,
+        "above_ma60": true,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
@@ -3228,17 +3228,17 @@
     },
     "1533": {
       "stock_id": "1533",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 29.0,
-      "ma20": 29.8275,
-      "ma60": 30.9608,
-      "rsi6": 37.8523,
-      "rsi14": 34.6366,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 28.35,
+      "ma20": 29.7075,
+      "ma60": 30.8992,
+      "rsi6": 23.8615,
+      "rsi14": 28.5298,
       "bollinger": {
-        "upper": 31.2014,
-        "middle": 29.8275,
-        "lower": 28.4536
+        "upper": 31.1554,
+        "middle": 29.7075,
+        "lower": 28.2596
       },
       "signals": {
         "above_upper": false,
@@ -3253,17 +3253,17 @@
     },
     "1535": {
       "stock_id": "1535",
-      "date": "2026-10-22",
-      "trading_days": 224,
-      "close": 45.8,
-      "ma20": 45.42,
-      "ma60": 46.2392,
-      "rsi6": 60.4737,
-      "rsi14": 52.3643,
+      "date": "2026-10-27",
+      "trading_days": 225,
+      "close": 46.0,
+      "ma20": 45.4525,
+      "ma60": 46.1742,
+      "rsi6": 67.5495,
+      "rsi14": 55.4831,
       "bollinger": {
-        "upper": 46.3872,
-        "middle": 45.42,
-        "lower": 44.4528
+        "upper": 46.4512,
+        "middle": 45.4525,
+        "lower": 44.4538
       },
       "signals": {
         "above_upper": false,
@@ -3278,17 +3278,17 @@
     },
     "1536": {
       "stock_id": "1536",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 43.8,
-      "ma20": 45.665,
-      "ma60": 47.9392,
-      "rsi6": 27.8383,
-      "rsi14": 31.7874,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 45.45,
+      "ma20": 45.62,
+      "ma60": 47.9025,
+      "rsi6": 57.6005,
+      "rsi14": 46.6073,
       "bollinger": {
-        "upper": 47.7428,
-        "middle": 45.665,
-        "lower": 43.5872
+        "upper": 47.6753,
+        "middle": 45.62,
+        "lower": 43.5647
       },
       "signals": {
         "above_upper": false,
@@ -3303,22 +3303,22 @@
     },
     "1537": {
       "stock_id": "1537",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 115.0,
-      "ma20": 114.55,
-      "ma60": 118.875,
-      "rsi6": 58.282,
-      "rsi14": 47.9111,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 110.0,
+      "ma20": 114.3,
+      "ma60": 118.575,
+      "rsi6": 20.9841,
+      "rsi14": 29.0765,
       "bollinger": {
-        "upper": 115.9248,
-        "middle": 114.55,
-        "lower": 113.1752
+        "upper": 116.6958,
+        "middle": 114.3,
+        "lower": 111.9042
       },
       "signals": {
         "above_upper": false,
-        "below_lower": false,
-        "above_ma20": true,
+        "below_lower": true,
+        "above_ma20": false,
         "above_ma60": false,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
@@ -3353,17 +3353,17 @@
     },
     "1539": {
       "stock_id": "1539",
-      "date": "2026-10-22",
-      "trading_days": 236,
+      "date": "2026-10-27",
+      "trading_days": 237,
       "close": 15.3,
-      "ma20": 15.52,
-      "ma60": 15.7292,
+      "ma20": 15.5025,
+      "ma60": 15.7158,
       "rsi6": 22.5223,
       "rsi14": 35.7306,
       "bollinger": {
-        "upper": 15.7445,
-        "middle": 15.52,
-        "lower": 15.2955
+        "upper": 15.738,
+        "middle": 15.5025,
+        "lower": 15.267
       },
       "signals": {
         "above_upper": false,
@@ -3378,17 +3378,17 @@
     },
     "1540": {
       "stock_id": "1540",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 18.65,
-      "ma20": 18.985,
-      "ma60": 19.3175,
-      "rsi6": 40.4759,
-      "rsi14": 38.7115,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 18.8,
+      "ma20": 18.9525,
+      "ma60": 19.285,
+      "rsi6": 50.8516,
+      "rsi14": 43.7038,
       "bollinger": {
-        "upper": 19.6301,
-        "middle": 18.985,
-        "lower": 18.3399
+        "upper": 19.5653,
+        "middle": 18.9525,
+        "lower": 18.3397
       },
       "signals": {
         "above_upper": false,
@@ -3403,17 +3403,17 @@
     },
     "1541": {
       "stock_id": "1541",
-      "date": "2026-10-22",
-      "trading_days": 234,
-      "close": 20.0,
-      "ma20": 20.41,
-      "ma60": 21.1558,
-      "rsi6": 48.9572,
-      "rsi14": 42.7063,
+      "date": "2026-10-27",
+      "trading_days": 235,
+      "close": 20.1,
+      "ma20": 20.365,
+      "ma60": 21.1233,
+      "rsi6": 52.0728,
+      "rsi14": 44.4043,
       "bollinger": {
-        "upper": 21.4947,
-        "middle": 20.41,
-        "lower": 19.3253
+        "upper": 21.4224,
+        "middle": 20.365,
+        "lower": 19.3076
       },
       "signals": {
         "above_upper": false,
@@ -3428,17 +3428,17 @@
     },
     "1558": {
       "stock_id": "1558",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 113.0,
-      "ma20": 112.825,
-      "ma60": 104.82,
-      "rsi6": 43.0741,
-      "rsi14": 55.11,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 115.5,
+      "ma20": 113.025,
+      "ma60": 105.2583,
+      "rsi6": 59.77,
+      "rsi14": 61.3406,
       "bollinger": {
-        "upper": 117.8775,
-        "middle": 112.825,
-        "lower": 107.7725
+        "upper": 118.1677,
+        "middle": 113.025,
+        "lower": 107.8823
       },
       "signals": {
         "above_upper": false,
@@ -3453,17 +3453,17 @@
     },
     "1560": {
       "stock_id": "1560",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 846.0,
-      "ma20": 951.65,
-      "ma60": 790.8167,
-      "rsi6": 23.6417,
-      "rsi14": 42.081,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 832.0,
+      "ma20": 945.75,
+      "ma60": 794.1,
+      "rsi6": 20.8784,
+      "rsi14": 40.0962,
       "bollinger": {
-        "upper": 1071.9235,
-        "middle": 951.65,
-        "lower": 831.3765
+        "upper": 1076.8574,
+        "middle": 945.75,
+        "lower": 814.6426
       },
       "signals": {
         "above_upper": false,
@@ -3478,17 +3478,17 @@
     },
     "1563": {
       "stock_id": "1563",
-      "date": "2026-10-22",
-      "trading_days": 229,
-      "close": 76.7,
-      "ma20": 79.485,
-      "ma60": 69.57,
-      "rsi6": 28.4223,
-      "rsi14": 47.2892,
+      "date": "2026-10-27",
+      "trading_days": 230,
+      "close": 77.2,
+      "ma20": 79.725,
+      "ma60": 69.84,
+      "rsi6": 32.1298,
+      "rsi14": 48.414,
       "bollinger": {
-        "upper": 88.3989,
-        "middle": 79.485,
-        "lower": 70.5711
+        "upper": 88.1054,
+        "middle": 79.725,
+        "lower": 71.3446
       },
       "signals": {
         "above_upper": false,
@@ -3503,24 +3503,24 @@
     },
     "1568": {
       "stock_id": "1568",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 28.9,
-      "ma20": 30.75,
-      "ma60": 29.4417,
-      "rsi6": 21.8237,
-      "rsi14": 38.2511,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 28.55,
+      "ma20": 30.6475,
+      "ma60": 29.4625,
+      "rsi6": 17.7895,
+      "rsi14": 35.8818,
       "bollinger": {
-        "upper": 33.1672,
-        "middle": 30.75,
-        "lower": 28.3328
+        "upper": 33.2484,
+        "middle": 30.6475,
+        "lower": 28.0466
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
         "above_ma20": false,
         "above_ma60": false,
-        "rsi6_below_20": false,
+        "rsi6_below_20": true,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
         "rsi14_above_80": false
@@ -3528,23 +3528,23 @@
     },
     "1582": {
       "stock_id": "1582",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 69.9,
-      "ma20": 70.93,
-      "ma60": 71.655,
-      "rsi6": 41.653,
-      "rsi14": 44.1331,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 72.4,
+      "ma20": 71.02,
+      "ma60": 71.76,
+      "rsi6": 61.1107,
+      "rsi14": 54.3533,
       "bollinger": {
-        "upper": 72.4335,
-        "middle": 70.93,
-        "lower": 69.4265
+        "upper": 72.6443,
+        "middle": 71.02,
+        "lower": 69.3957
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": false,
-        "above_ma60": false,
+        "above_ma20": true,
+        "above_ma60": true,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
@@ -3553,22 +3553,22 @@
     },
     "1583": {
       "stock_id": "1583",
-      "date": "2026-10-21",
-      "trading_days": 234,
-      "close": 47.0,
-      "ma20": 47.2,
-      "ma60": 48.4617,
-      "rsi6": 37.5339,
-      "rsi14": 44.9039,
+      "date": "2026-10-27",
+      "trading_days": 235,
+      "close": 48.1,
+      "ma20": 47.23,
+      "ma60": 48.4317,
+      "rsi6": 59.0262,
+      "rsi14": 53.4617,
       "bollinger": {
-        "upper": 48.6646,
-        "middle": 47.2,
-        "lower": 45.7354
+        "upper": 48.7418,
+        "middle": 47.23,
+        "lower": 45.7182
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": false,
+        "above_ma20": true,
         "above_ma60": false,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
@@ -3578,24 +3578,24 @@
     },
     "1587": {
       "stock_id": "1587",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 22.95,
-      "ma20": 23.6275,
-      "ma60": 23.9008,
-      "rsi6": 21.9867,
-      "rsi14": 35.6754,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 22.8,
+      "ma20": 23.58,
+      "ma60": 23.875,
+      "rsi6": 18.5902,
+      "rsi14": 33.6117,
       "bollinger": {
-        "upper": 24.3406,
-        "middle": 23.6275,
-        "lower": 22.9144
+        "upper": 24.3759,
+        "middle": 23.58,
+        "lower": 22.7841
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
         "above_ma20": false,
         "above_ma60": false,
-        "rsi6_below_20": false,
+        "rsi6_below_20": true,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
         "rsi14_above_80": false
@@ -3603,21 +3603,21 @@
     },
     "1590": {
       "stock_id": "1590",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 1100.0,
-      "ma20": 1182.75,
-      "ma60": 1329.8333,
-      "rsi6": 24.1378,
-      "rsi14": 29.4205,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 1140.0,
+      "ma20": 1176.75,
+      "ma60": 1326.0833,
+      "rsi6": 45.5038,
+      "rsi14": 38.7429,
       "bollinger": {
-        "upper": 1262.4039,
-        "middle": 1182.75,
-        "lower": 1103.0961
+        "upper": 1250.049,
+        "middle": 1176.75,
+        "lower": 1103.451
       },
       "signals": {
         "above_upper": false,
-        "below_lower": true,
+        "below_lower": false,
         "above_ma20": false,
         "above_ma60": false,
         "rsi6_below_20": false,
@@ -3628,17 +3628,42 @@
     },
     "1597": {
       "stock_id": "1597",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 135.0,
-      "ma20": 143.8,
-      "ma60": 140.3,
-      "rsi6": 34.8179,
-      "rsi14": 43.4154,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 144.0,
+      "ma20": 144.25,
+      "ma60": 140.7417,
+      "rsi6": 52.0198,
+      "rsi14": 50.6127,
       "bollinger": {
-        "upper": 156.8553,
-        "middle": 143.8,
-        "lower": 130.7447
+        "upper": 156.6657,
+        "middle": 144.25,
+        "lower": 131.8343
+      },
+      "signals": {
+        "above_upper": false,
+        "below_lower": false,
+        "above_ma20": false,
+        "above_ma60": true,
+        "rsi6_below_20": false,
+        "rsi6_above_80": false,
+        "rsi14_below_20": false,
+        "rsi14_above_80": false
+      }
+    },
+    "1598": {
+      "stock_id": "1598",
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 19.2,
+      "ma20": 19.95,
+      "ma60": 20.2133,
+      "rsi6": 27.0389,
+      "rsi14": 34.9157,
+      "bollinger": {
+        "upper": 20.9128,
+        "middle": 19.95,
+        "lower": 18.9872
       },
       "signals": {
         "above_upper": false,
@@ -3651,19 +3676,19 @@
         "rsi14_above_80": false
       }
     },
-    "1598": {
-      "stock_id": "1598",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 19.05,
-      "ma20": 20.0125,
-      "ma60": 20.2225,
-      "rsi6": 12.1765,
-      "rsi14": 30.7059,
+    "1603": {
+      "stock_id": "1603",
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 29.35,
+      "ma20": 30.4475,
+      "ma60": 30.1883,
+      "rsi6": 19.5627,
+      "rsi14": 34.2451,
       "bollinger": {
-        "upper": 20.9338,
-        "middle": 20.0125,
-        "lower": 19.0912
+        "upper": 31.2778,
+        "middle": 30.4475,
+        "lower": 29.6172
       },
       "signals": {
         "above_upper": false,
@@ -3676,50 +3701,25 @@
         "rsi14_above_80": false
       }
     },
-    "1603": {
-      "stock_id": "1603",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 30.15,
-      "ma20": 30.485,
-      "ma60": 30.175,
-      "rsi6": 36.023,
-      "rsi14": 44.7029,
-      "bollinger": {
-        "upper": 31.1684,
-        "middle": 30.485,
-        "lower": 29.8016
-      },
-      "signals": {
-        "above_upper": false,
-        "below_lower": false,
-        "above_ma20": false,
-        "above_ma60": false,
-        "rsi6_below_20": false,
-        "rsi6_above_80": false,
-        "rsi14_below_20": false,
-        "rsi14_above_80": false
-      }
-    },
     "1604": {
       "stock_id": "1604",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 23.25,
-      "ma20": 23.42,
-      "ma60": 23.3575,
-      "rsi6": 28.7683,
-      "rsi14": 41.097,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 23.4,
+      "ma20": 23.4125,
+      "ma60": 23.3583,
+      "rsi6": 50.8791,
+      "rsi14": 49.4996,
       "bollinger": {
-        "upper": 23.7,
-        "middle": 23.42,
-        "lower": 23.14
+        "upper": 23.6861,
+        "middle": 23.4125,
+        "lower": 23.1389
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
         "above_ma20": false,
-        "above_ma60": false,
+        "above_ma60": true,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
@@ -3728,17 +3728,17 @@
     },
     "1605": {
       "stock_id": "1605",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 37.0,
-      "ma20": 38.1475,
-      "ma60": 37.1892,
-      "rsi6": 39.1334,
-      "rsi14": 45.4282,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 37.05,
+      "ma20": 38.15,
+      "ma60": 37.2967,
+      "rsi6": 39.8333,
+      "rsi14": 45.6885,
       "bollinger": {
-        "upper": 40.5453,
-        "middle": 38.1475,
-        "lower": 35.7497
+        "upper": 40.5431,
+        "middle": 38.15,
+        "lower": 35.7569
       },
       "signals": {
         "above_upper": false,
@@ -3753,17 +3753,17 @@
     },
     "1608": {
       "stock_id": "1608",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 35.5,
-      "ma20": 36.09,
-      "ma60": 35.5608,
-      "rsi6": 40.1096,
-      "rsi14": 45.7291,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 35.1,
+      "ma20": 36.065,
+      "ma60": 35.6742,
+      "rsi6": 34.6201,
+      "rsi14": 43.0752,
       "bollinger": {
-        "upper": 37.2483,
-        "middle": 36.09,
-        "lower": 34.9317
+        "upper": 37.2845,
+        "middle": 36.065,
+        "lower": 34.8455
       },
       "signals": {
         "above_upper": false,
@@ -3778,23 +3778,23 @@
     },
     "1609": {
       "stock_id": "1609",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 37.6,
-      "ma20": 38.395,
-      "ma60": 37.3733,
-      "rsi6": 38.5248,
-      "rsi14": 45.5312,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 37.25,
+      "ma20": 38.3525,
+      "ma60": 37.4217,
+      "rsi6": 33.6262,
+      "rsi14": 43.0092,
       "bollinger": {
-        "upper": 39.6168,
-        "middle": 38.395,
-        "lower": 37.1732
+        "upper": 39.668,
+        "middle": 38.3525,
+        "lower": 37.037
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
         "above_ma20": false,
-        "above_ma60": true,
+        "above_ma60": false,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
@@ -3803,17 +3803,17 @@
     },
     "1611": {
       "stock_id": "1611",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 11.35,
-      "ma20": 11.3625,
-      "ma60": 11.6483,
-      "rsi6": 48.5031,
-      "rsi14": 46.4606,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 11.3,
+      "ma20": 11.3525,
+      "ma60": 11.64,
+      "rsi6": 42.8474,
+      "rsi14": 44.5897,
       "bollinger": {
-        "upper": 11.5264,
-        "middle": 11.3625,
-        "lower": 11.1986
+        "upper": 11.5057,
+        "middle": 11.3525,
+        "lower": 11.1993
       },
       "signals": {
         "above_upper": false,
@@ -3828,21 +3828,21 @@
     },
     "1612": {
       "stock_id": "1612",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 33.0,
-      "ma20": 34.465,
-      "ma60": 33.9883,
-      "rsi6": 16.94,
-      "rsi14": 30.7737,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 32.4,
+      "ma20": 34.3325,
+      "ma60": 34.02,
+      "rsi6": 11.2759,
+      "rsi14": 25.9517,
       "bollinger": {
-        "upper": 36.0284,
-        "middle": 34.465,
-        "lower": 32.9016
+        "upper": 36.1097,
+        "middle": 34.3325,
+        "lower": 32.5553
       },
       "signals": {
         "above_upper": false,
-        "below_lower": false,
+        "below_lower": true,
         "above_ma20": false,
         "above_ma60": false,
         "rsi6_below_20": true,
@@ -3853,20 +3853,20 @@
     },
     "1614": {
       "stock_id": "1614",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 31.45,
-      "ma20": 31.235,
-      "ma60": 31.0008,
-      "rsi6": 55.944,
-      "rsi14": 56.3862,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 31.85,
+      "ma20": 31.2725,
+      "ma60": 31.0125,
+      "rsi6": 71.604,
+      "rsi14": 64.1564,
       "bollinger": {
-        "upper": 31.6664,
-        "middle": 31.235,
-        "lower": 30.8036
+        "upper": 31.775,
+        "middle": 31.2725,
+        "lower": 30.77
       },
       "signals": {
-        "above_upper": false,
+        "above_upper": true,
         "below_lower": false,
         "above_ma20": true,
         "above_ma60": true,
@@ -3878,17 +3878,17 @@
     },
     "1615": {
       "stock_id": "1615",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 47.85,
-      "ma20": 46.34,
-      "ma60": 44.3925,
-      "rsi6": 45.1706,
-      "rsi14": 54.4708,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 47.3,
+      "ma20": 46.5475,
+      "ma60": 44.4783,
+      "rsi6": 41.4546,
+      "rsi14": 52.3482,
       "bollinger": {
-        "upper": 54.8231,
-        "middle": 46.34,
-        "lower": 37.8569
+        "upper": 54.9105,
+        "middle": 46.5475,
+        "lower": 38.1845
       },
       "signals": {
         "above_upper": false,
@@ -3903,17 +3903,17 @@
     },
     "1616": {
       "stock_id": "1616",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 17.9,
-      "ma20": 18.365,
-      "ma60": 18.8542,
-      "rsi6": 27.8241,
-      "rsi14": 36.7029,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 17.65,
+      "ma20": 18.325,
+      "ma60": 18.8358,
+      "rsi6": 20.6857,
+      "rsi14": 32.8416,
       "bollinger": {
-        "upper": 18.8123,
-        "middle": 18.365,
-        "lower": 17.9177
+        "upper": 18.8677,
+        "middle": 18.325,
+        "lower": 17.7823
       },
       "signals": {
         "above_upper": false,
@@ -3928,17 +3928,17 @@
     },
     "1617": {
       "stock_id": "1617",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 22.5,
-      "ma20": 22.74,
-      "ma60": 19.5392,
-      "rsi6": 48.4052,
-      "rsi14": 54.8546,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 21.55,
+      "ma20": 22.8375,
+      "ma60": 19.6108,
+      "rsi6": 36.8649,
+      "rsi14": 48.7153,
       "bollinger": {
-        "upper": 25.7466,
-        "middle": 22.74,
-        "lower": 19.7334
+        "upper": 25.5417,
+        "middle": 22.8375,
+        "lower": 20.1333
       },
       "signals": {
         "above_upper": false,
@@ -3953,17 +3953,17 @@
     },
     "1618": {
       "stock_id": "1618",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 37.8,
-      "ma20": 38.7275,
-      "ma60": 39.0658,
-      "rsi6": 31.1038,
-      "rsi14": 40.1269,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 37.4,
+      "ma20": 38.6375,
+      "ma60": 39.0558,
+      "rsi6": 25.6047,
+      "rsi14": 37.1291,
       "bollinger": {
-        "upper": 39.5284,
-        "middle": 38.7275,
-        "lower": 37.9266
+        "upper": 39.595,
+        "middle": 38.6375,
+        "lower": 37.68
       },
       "signals": {
         "above_upper": false,
@@ -4003,17 +4003,17 @@
     },
     "1626": {
       "stock_id": "1626",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 9.69,
-      "ma20": 9.712,
-      "ma60": 9.6817,
-      "rsi6": 43.4216,
-      "rsi14": 48.3358,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 9.7,
+      "ma20": 9.706,
+      "ma60": 9.6772,
+      "rsi6": 46.3637,
+      "rsi14": 49.1001,
       "bollinger": {
-        "upper": 9.8376,
-        "middle": 9.712,
-        "lower": 9.5864
+        "upper": 9.8215,
+        "middle": 9.706,
+        "lower": 9.5905
       },
       "signals": {
         "above_upper": false,
@@ -4028,22 +4028,22 @@
     },
     "1702": {
       "stock_id": "1702",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 33.15,
-      "ma20": 33.2475,
-      "ma60": 33.005,
-      "rsi6": 38.1653,
-      "rsi14": 49.5451,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 33.3,
+      "ma20": 33.25,
+      "ma60": 33.0042,
+      "rsi6": 48.5543,
+      "rsi14": 52.7798,
       "bollinger": {
-        "upper": 33.9006,
-        "middle": 33.2475,
-        "lower": 32.5944
+        "upper": 33.9035,
+        "middle": 33.25,
+        "lower": 32.5965
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": false,
+        "above_ma20": true,
         "above_ma60": true,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
@@ -4053,17 +4053,17 @@
     },
     "1707": {
       "stock_id": "1707",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 85.2,
-      "ma20": 85.915,
-      "ma60": 88.3783,
-      "rsi6": 34.7942,
-      "rsi14": 39.5781,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 83.8,
+      "ma20": 85.76,
+      "ma60": 88.265,
+      "rsi6": 22.4461,
+      "rsi14": 33.0436,
       "bollinger": {
-        "upper": 87.7164,
-        "middle": 85.915,
-        "lower": 84.1136
+        "upper": 87.722,
+        "middle": 85.76,
+        "lower": 83.798
       },
       "signals": {
         "above_upper": false,
@@ -4078,24 +4078,24 @@
     },
     "1708": {
       "stock_id": "1708",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 49.95,
-      "ma20": 53.5225,
-      "ma60": 50.97,
-      "rsi6": 21.1283,
-      "rsi14": 38.3223,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 48.95,
+      "ma20": 53.465,
+      "ma60": 50.96,
+      "rsi6": 17.1974,
+      "rsi14": 35.1498,
       "bollinger": {
-        "upper": 58.4087,
-        "middle": 53.5225,
-        "lower": 48.6363
+        "upper": 58.5345,
+        "middle": 53.465,
+        "lower": 48.3955
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
         "above_ma20": false,
         "above_ma60": false,
-        "rsi6_below_20": false,
+        "rsi6_below_20": true,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
         "rsi14_above_80": false
@@ -4103,22 +4103,22 @@
     },
     "1709": {
       "stock_id": "1709",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 55.3,
-      "ma20": 55.2925,
-      "ma60": 39.9,
-      "rsi6": 47.1755,
-      "rsi14": 55.4438,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 52.0,
+      "ma20": 55.595,
+      "ma60": 40.3575,
+      "rsi6": 37.907,
+      "rsi14": 50.6881,
       "bollinger": {
-        "upper": 67.9492,
-        "middle": 55.2925,
-        "lower": 42.6358
+        "upper": 67.6174,
+        "middle": 55.595,
+        "lower": 43.5726
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": true,
+        "above_ma20": false,
         "above_ma60": true,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
@@ -4128,17 +4128,17 @@
     },
     "1710": {
       "stock_id": "1710",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 17.05,
-      "ma20": 17.56,
-      "ma60": 16.0,
-      "rsi6": 36.3861,
-      "rsi14": 47.8311,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 16.7,
+      "ma20": 17.5575,
+      "ma60": 16.0483,
+      "rsi6": 31.8935,
+      "rsi14": 45.0641,
       "bollinger": {
-        "upper": 19.3459,
-        "middle": 17.56,
-        "lower": 15.7741
+        "upper": 19.3481,
+        "middle": 17.5575,
+        "lower": 15.7669
       },
       "signals": {
         "above_upper": false,
@@ -4153,22 +4153,22 @@
     },
     "1711": {
       "stock_id": "1711",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 44.95,
-      "ma20": 43.6175,
-      "ma60": 40.3133,
-      "rsi6": 49.8778,
-      "rsi14": 54.2875,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 41.8,
+      "ma20": 43.7725,
+      "ma60": 40.4658,
+      "rsi6": 35.6899,
+      "rsi14": 46.2713,
       "bollinger": {
-        "upper": 49.4267,
-        "middle": 43.6175,
-        "lower": 37.8083
+        "upper": 49.2016,
+        "middle": 43.7725,
+        "lower": 38.3434
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": true,
+        "above_ma20": false,
         "above_ma60": true,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
@@ -4178,17 +4178,17 @@
     },
     "1712": {
       "stock_id": "1712",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 40.25,
-      "ma20": 40.0875,
-      "ma60": 39.8267,
-      "rsi6": 47.7955,
-      "rsi14": 51.9692,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 40.5,
+      "ma20": 40.1175,
+      "ma60": 39.8458,
+      "rsi6": 58.0598,
+      "rsi14": 56.0927,
       "bollinger": {
-        "upper": 40.8588,
-        "middle": 40.0875,
-        "lower": 39.3162
+        "upper": 40.9038,
+        "middle": 40.1175,
+        "lower": 39.3312
       },
       "signals": {
         "above_upper": false,
@@ -4203,23 +4203,23 @@
     },
     "1713": {
       "stock_id": "1713",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 44.8,
-      "ma20": 44.13,
-      "ma60": 44.1867,
-      "rsi6": 44.7117,
-      "rsi14": 54.2094,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 44.0,
+      "ma20": 44.2625,
+      "ma60": 44.1267,
+      "rsi6": 30.8545,
+      "rsi14": 46.7153,
       "bollinger": {
-        "upper": 47.427,
-        "middle": 44.13,
-        "lower": 40.833
+        "upper": 47.3052,
+        "middle": 44.2625,
+        "lower": 41.2198
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": true,
-        "above_ma60": true,
+        "above_ma20": false,
+        "above_ma60": false,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
@@ -4228,17 +4228,17 @@
     },
     "1714": {
       "stock_id": "1714",
-      "date": "2026-10-22",
-      "trading_days": 236,
+      "date": "2026-10-27",
+      "trading_days": 237,
       "close": 18.3,
-      "ma20": 18.1875,
-      "ma60": 16.7358,
+      "ma20": 18.2975,
+      "ma60": 16.8133,
       "rsi6": 40.204,
       "rsi14": 51.8772,
       "bollinger": {
-        "upper": 21.4088,
-        "middle": 18.1875,
-        "lower": 14.9662
+        "upper": 21.3731,
+        "middle": 18.2975,
+        "lower": 15.2219
       },
       "signals": {
         "above_upper": false,
@@ -4253,17 +4253,17 @@
     },
     "1717": {
       "stock_id": "1717",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 68.5,
-      "ma20": 72.94,
-      "ma60": 71.4617,
-      "rsi6": 23.1136,
-      "rsi14": 37.5716,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 68.6,
+      "ma20": 72.82,
+      "ma60": 71.6417,
+      "rsi6": 24.2619,
+      "rsi14": 37.9512,
       "bollinger": {
-        "upper": 76.5319,
-        "middle": 72.94,
-        "lower": 69.3481
+        "upper": 76.8023,
+        "middle": 72.82,
+        "lower": 68.8377
       },
       "signals": {
         "above_upper": false,
@@ -4278,17 +4278,17 @@
     },
     "1718": {
       "stock_id": "1718",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 11.2,
-      "ma20": 11.375,
-      "ma60": 10.7307,
-      "rsi6": 39.2238,
-      "rsi14": 48.3379,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 11.05,
+      "ma20": 11.3925,
+      "ma60": 10.7527,
+      "rsi6": 36.267,
+      "rsi14": 46.6263,
       "bollinger": {
-        "upper": 12.6954,
-        "middle": 11.375,
-        "lower": 10.0546
+        "upper": 12.6857,
+        "middle": 11.3925,
+        "lower": 10.0993
       },
       "signals": {
         "above_upper": false,
@@ -4303,17 +4303,17 @@
     },
     "1720": {
       "stock_id": "1720",
-      "date": "2026-10-22",
-      "trading_days": 224,
-      "close": 57.0,
-      "ma20": 56.205,
-      "ma60": 57.59,
-      "rsi6": 78.0874,
-      "rsi14": 58.5514,
+      "date": "2026-10-27",
+      "trading_days": 225,
+      "close": 57.1,
+      "ma20": 56.26,
+      "ma60": 57.4767,
+      "rsi6": 80.1448,
+      "rsi14": 59.9671,
       "bollinger": {
-        "upper": 56.8326,
-        "middle": 56.205,
-        "lower": 55.5774
+        "upper": 56.9905,
+        "middle": 56.26,
+        "lower": 55.5295
       },
       "signals": {
         "above_upper": true,
@@ -4321,24 +4321,24 @@
         "above_ma20": true,
         "above_ma60": false,
         "rsi6_below_20": false,
-        "rsi6_above_80": false,
+        "rsi6_above_80": true,
         "rsi14_below_20": false,
         "rsi14_above_80": false
       }
     },
     "1721": {
       "stock_id": "1721",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 23.85,
-      "ma20": 26.02,
-      "ma60": 22.4325,
-      "rsi6": 29.3338,
-      "rsi14": 43.9808,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 23.05,
+      "ma20": 25.955,
+      "ma60": 22.4908,
+      "rsi6": 23.7425,
+      "rsi14": 40.1796,
       "bollinger": {
-        "upper": 28.9909,
-        "middle": 26.02,
-        "lower": 23.0491
+        "upper": 29.1198,
+        "middle": 25.955,
+        "lower": 22.7902
       },
       "signals": {
         "above_upper": false,
@@ -4353,17 +4353,17 @@
     },
     "1722": {
       "stock_id": "1722",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 41.95,
-      "ma20": 41.61,
-      "ma60": 43.7008,
-      "rsi6": 53.7788,
-      "rsi14": 46.5865,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 41.65,
+      "ma20": 41.6,
+      "ma60": 43.6275,
+      "rsi6": 44.6543,
+      "rsi14": 43.2957,
       "bollinger": {
-        "upper": 42.463,
-        "middle": 41.61,
-        "lower": 40.757
+        "upper": 42.4462,
+        "middle": 41.6,
+        "lower": 40.7538
       },
       "signals": {
         "above_upper": false,
@@ -4378,17 +4378,17 @@
     },
     "1723": {
       "stock_id": "1723",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 80.6,
-      "ma20": 82.205,
-      "ma60": 83.675,
-      "rsi6": 32.0951,
-      "rsi14": 41.8421,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 80.4,
+      "ma20": 82.19,
+      "ma60": 83.6183,
+      "rsi6": 31.0439,
+      "rsi14": 41.2385,
       "bollinger": {
-        "upper": 86.9562,
-        "middle": 82.205,
-        "lower": 77.4538
+        "upper": 86.962,
+        "middle": 82.19,
+        "lower": 77.418
       },
       "signals": {
         "above_upper": false,
@@ -4403,17 +4403,17 @@
     },
     "1725": {
       "stock_id": "1725",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 32.15,
-      "ma20": 34.02,
-      "ma60": 32.2367,
-      "rsi6": 23.0305,
-      "rsi14": 38.3698,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 32.2,
+      "ma20": 33.9525,
+      "ma60": 32.29,
+      "rsi6": 24.4855,
+      "rsi14": 38.8846,
       "bollinger": {
-        "upper": 35.9733,
-        "middle": 34.02,
-        "lower": 32.0667
+        "upper": 36.0538,
+        "middle": 33.9525,
+        "lower": 31.8512
       },
       "signals": {
         "above_upper": false,
@@ -4428,22 +4428,22 @@
     },
     "1726": {
       "stock_id": "1726",
-      "date": "2026-10-22",
-      "trading_days": 234,
-      "close": 76.0,
-      "ma20": 76.23,
-      "ma60": 76.9667,
-      "rsi6": 42.0091,
-      "rsi14": 40.5997,
+      "date": "2026-10-27",
+      "trading_days": 235,
+      "close": 76.3,
+      "ma20": 76.2,
+      "ma60": 76.9483,
+      "rsi6": 64.5676,
+      "rsi14": 48.3359,
       "bollinger": {
-        "upper": 76.7744,
-        "middle": 76.23,
-        "lower": 75.6856
+        "upper": 76.6517,
+        "middle": 76.2,
+        "lower": 75.7483
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": false,
+        "above_ma20": true,
         "above_ma60": false,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
@@ -4453,42 +4453,17 @@
     },
     "1727": {
       "stock_id": "1727",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 93.2,
-      "ma20": 106.135,
-      "ma60": 92.805,
-      "rsi6": 31.6948,
-      "rsi14": 42.1757,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 91.4,
+      "ma20": 105.405,
+      "ma60": 93.1433,
+      "rsi6": 28.7717,
+      "rsi14": 40.658,
       "bollinger": {
-        "upper": 123.006,
-        "middle": 106.135,
-        "lower": 89.264
-      },
-      "signals": {
-        "above_upper": false,
-        "below_lower": false,
-        "above_ma20": false,
-        "above_ma60": true,
-        "rsi6_below_20": false,
-        "rsi6_above_80": false,
-        "rsi14_below_20": false,
-        "rsi14_above_80": false
-      }
-    },
-    "1730": {
-      "stock_id": "1730",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 51.0,
-      "ma20": 51.16,
-      "ma60": 51.3183,
-      "rsi6": 40.099,
-      "rsi14": 42.976,
-      "bollinger": {
-        "upper": 51.364,
-        "middle": 51.16,
-        "lower": 50.956
+        "upper": 123.4582,
+        "middle": 105.405,
+        "lower": 87.3518
       },
       "signals": {
         "above_upper": false,
@@ -4501,22 +4476,47 @@
         "rsi14_above_80": false
       }
     },
-    "1731": {
-      "stock_id": "1731",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 21.1,
-      "ma20": 20.9425,
-      "ma60": 20.8833,
-      "rsi6": 65.7368,
-      "rsi14": 58.7624,
+    "1730": {
+      "stock_id": "1730",
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 51.2,
+      "ma20": 51.155,
+      "ma60": 51.32,
+      "rsi6": 57.0487,
+      "rsi14": 50.0377,
       "bollinger": {
-        "upper": 21.0983,
-        "middle": 20.9425,
-        "lower": 20.7867
+        "upper": 51.3497,
+        "middle": 51.155,
+        "lower": 50.9603
       },
       "signals": {
-        "above_upper": true,
+        "above_upper": false,
+        "below_lower": false,
+        "above_ma20": true,
+        "above_ma60": false,
+        "rsi6_below_20": false,
+        "rsi6_above_80": false,
+        "rsi14_below_20": false,
+        "rsi14_above_80": false
+      }
+    },
+    "1731": {
+      "stock_id": "1731",
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 21.05,
+      "ma20": 20.9475,
+      "ma60": 20.8908,
+      "rsi6": 58.2063,
+      "rsi14": 55.6431,
+      "bollinger": {
+        "upper": 21.1102,
+        "middle": 20.9475,
+        "lower": 20.7848
+      },
+      "signals": {
+        "above_upper": false,
         "below_lower": false,
         "above_ma20": true,
         "above_ma60": true,
@@ -4528,23 +4528,23 @@
     },
     "1732": {
       "stock_id": "1732",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 26.55,
-      "ma20": 26.5,
-      "ma60": 26.3583,
-      "rsi6": 48.2589,
-      "rsi14": 51.0571,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 26.25,
+      "ma20": 26.5025,
+      "ma60": 26.35,
+      "rsi6": 39.322,
+      "rsi14": 46.7916,
       "bollinger": {
-        "upper": 27.492,
-        "middle": 26.5,
-        "lower": 25.508
+        "upper": 27.4917,
+        "middle": 26.5025,
+        "lower": 25.5133
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": true,
-        "above_ma60": true,
+        "above_ma20": false,
+        "above_ma60": false,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
@@ -4553,17 +4553,17 @@
     },
     "1733": {
       "stock_id": "1733",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 29.6,
-      "ma20": 30.0225,
-      "ma60": 30.9883,
-      "rsi6": 33.3807,
-      "rsi14": 39.8697,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 29.7,
+      "ma20": 30.0025,
+      "ma60": 30.955,
+      "rsi6": 38.9328,
+      "rsi14": 41.6779,
       "bollinger": {
-        "upper": 30.5912,
-        "middle": 30.0225,
-        "lower": 29.4538
+        "upper": 30.5869,
+        "middle": 30.0025,
+        "lower": 29.4181
       },
       "signals": {
         "above_upper": false,
@@ -4578,17 +4578,17 @@
     },
     "1734": {
       "stock_id": "1734",
-      "date": "2026-10-22",
-      "trading_days": 236,
+      "date": "2026-10-27",
+      "trading_days": 237,
       "close": 30.7,
-      "ma20": 31.7125,
-      "ma60": 31.6167,
+      "ma20": 31.6475,
+      "ma60": 31.5975,
       "rsi6": 14.6284,
       "rsi14": 31.4889,
       "bollinger": {
-        "upper": 32.7872,
-        "middle": 31.7125,
-        "lower": 30.6378
+        "upper": 32.7992,
+        "middle": 31.6475,
+        "lower": 30.4958
       },
       "signals": {
         "above_upper": false,
@@ -4603,17 +4603,17 @@
     },
     "1735": {
       "stock_id": "1735",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 23.3,
-      "ma20": 21.815,
-      "ma60": 20.7133,
-      "rsi6": 66.9718,
-      "rsi14": 61.1816,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 22.8,
+      "ma20": 21.935,
+      "ma60": 20.7767,
+      "rsi6": 58.3922,
+      "rsi14": 57.3346,
       "bollinger": {
-        "upper": 24.43,
-        "middle": 21.815,
-        "lower": 19.2
+        "upper": 24.499,
+        "middle": 21.935,
+        "lower": 19.371
       },
       "signals": {
         "above_upper": false,
@@ -4628,22 +4628,22 @@
     },
     "1736": {
       "stock_id": "1736",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 124.0,
-      "ma20": 123.6,
-      "ma60": 127.475,
-      "rsi6": 60.0232,
-      "rsi14": 50.2107,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 122.5,
+      "ma20": 123.5,
+      "ma60": 127.3417,
+      "rsi6": 49.52,
+      "rsi14": 46.9812,
       "bollinger": {
-        "upper": 128.7923,
-        "middle": 123.6,
-        "lower": 118.4077
+        "upper": 128.6962,
+        "middle": 123.5,
+        "lower": 118.3038
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
-        "above_ma20": true,
+        "above_ma20": false,
         "above_ma60": false,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
@@ -4653,17 +4653,17 @@
     },
     "1737": {
       "stock_id": "1737",
-      "date": "2026-10-22",
-      "trading_days": 236,
+      "date": "2026-10-27",
+      "trading_days": 237,
       "close": 30.15,
-      "ma20": 30.0575,
-      "ma60": 30.8875,
+      "ma20": 30.06,
+      "ma60": 30.8542,
       "rsi6": 57.5648,
       "rsi14": 46.5609,
       "bollinger": {
-        "upper": 30.2399,
-        "middle": 30.0575,
-        "lower": 29.8751
+        "upper": 30.246,
+        "middle": 30.06,
+        "lower": 29.874
       },
       "signals": {
         "above_upper": false,
@@ -4678,17 +4678,17 @@
     },
     "1752": {
       "stock_id": "1752",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 31.1,
-      "ma20": 31.65,
-      "ma60": 31.6725,
-      "rsi6": 32.1097,
-      "rsi14": 41.6393,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 30.85,
+      "ma20": 31.6225,
+      "ma60": 31.6583,
+      "rsi6": 26.8423,
+      "rsi14": 38.5726,
       "bollinger": {
-        "upper": 32.8222,
-        "middle": 31.65,
-        "lower": 30.4778
+        "upper": 32.8417,
+        "middle": 31.6225,
+        "lower": 30.4033
       },
       "signals": {
         "above_upper": false,
@@ -4703,24 +4703,24 @@
     },
     "1760": {
       "stock_id": "1760",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 51.7,
-      "ma20": 53.89,
-      "ma60": 56.2317,
-      "rsi6": 19.1959,
-      "rsi14": 29.7869,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 51.9,
+      "ma20": 53.805,
+      "ma60": 56.1017,
+      "rsi6": 24.8974,
+      "rsi14": 31.9435,
       "bollinger": {
-        "upper": 55.6392,
-        "middle": 53.89,
-        "lower": 52.1408
+        "upper": 55.7559,
+        "middle": 53.805,
+        "lower": 51.8541
       },
       "signals": {
         "above_upper": false,
-        "below_lower": true,
+        "below_lower": false,
         "above_ma20": false,
         "above_ma60": false,
-        "rsi6_below_20": true,
+        "rsi6_below_20": false,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
         "rsi14_above_80": false
@@ -4728,17 +4728,17 @@
     },
     "1762": {
       "stock_id": "1762",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 33.6,
-      "ma20": 34.2075,
-      "ma60": 34.4567,
-      "rsi6": 25.1702,
-      "rsi14": 39.6451,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 33.75,
+      "ma20": 34.2125,
+      "ma60": 34.4742,
+      "rsi6": 32.2342,
+      "rsi14": 41.9516,
       "bollinger": {
-        "upper": 35.2865,
-        "middle": 34.2075,
-        "lower": 33.1285
+        "upper": 35.282,
+        "middle": 34.2125,
+        "lower": 33.143
       },
       "signals": {
         "above_upper": false,
@@ -4753,23 +4753,23 @@
     },
     "1773": {
       "stock_id": "1773",
-      "date": "2026-10-22",
-      "trading_days": 236,
-      "close": 165.0,
-      "ma20": 170.125,
-      "ma60": 162.5583,
-      "rsi6": 36.673,
-      "rsi14": 45.7753,
+      "date": "2026-10-27",
+      "trading_days": 237,
+      "close": 162.5,
+      "ma20": 170.15,
+      "ma60": 162.7,
+      "rsi6": 31.0923,
+      "rsi14": 42.7185,
       "bollinger": {
-        "upper": 181.0606,
-        "middle": 170.125,
-        "lower": 159.1894
+        "upper": 181.0132,
+        "middle": 170.15,
+        "lower": 159.2868
       },
       "signals": {
         "above_upper": false,
         "below_lower": false,
         "above_ma20": false,
-        "above_ma60": true,
+        "above_ma60": false,
         "rsi6_below_20": false,
         "rsi6_above_80": false,
         "rsi14_below_20": false,
@@ -4778,17 +4778,17 @@
     },
     "1776": {
       "stock_id": "1776",
-      "date": "2026-10-22",
-      "trading_days": 235,
-      "close": 18.8,
-      "ma20": 18.5475,
-      "ma60": 17.6558,
-      "rsi6": 57.9866,
-      "rsi14": 59.9588,
+      "date": "2026-10-27",
+      "trading_days": 236,
+      "close": 18.6,
+      "ma20": 18.57,
+      "ma60": 17.6825,
+      "rsi6": 45.6733,
+      "rsi14": 54.5068,
       "bollinger": {
         "upper": 19.2948,
-        "middle": 18.5475,
-        "lower": 17.8002
+        "middle": 18.57,
+        "lower": 17.8452
       },
       "signals": {
         "above_upper": false,
@@ -5278,17 +5278,17 @@
     },
     "2007": {
       "stock_id": "2007",
-      "date": "2026-10-22",
-      "trading_days": 161,
-      "close": 7.0,
-      "ma20": 7.3115,
-      "ma60": 7.465,
-      "rsi6": 28.8703,
-      "rsi14": 38.0963,
+      "date": "2026-10-27",
+      "trading_days": 162,
+      "close": 7.05,
+      "ma20": 7.2765,
+      "ma60": 7.4488,
+      "rsi6": 36.7841,
+      "rsi14": 40.4333,
       "bollinger": {
-        "upper": 7.6967,
-        "middle": 7.3115,
-        "lower": 6.9263
+        "upper": 7.621,
+        "middle": 7.2765,
+        "lower": 6.932
       },
       "signals": {
         "above_upper": false,
@@ -5303,17 +5303,17 @@
     },
     "2317": {
       "stock_id": "2317",
-      "date": "2026-10-22",
-      "trading_days": 244,
-      "close": 245.0,
-      "ma20": 248.225,
-      "ma60": 250.275,
-      "rsi6": 49.331,
-      "rsi14": 47.323,
+      "date": "2026-10-27",
+      "trading_days": 245,
+      "close": 247.5,
+      "ma20": 247.95,
+      "ma60": 250.4333,
+      "rsi6": 54.5628,
+      "rsi14": 49.9733,
       "bollinger": {
-        "upper": 259.1038,
-        "middle": 248.225,
-        "lower": 237.3462
+        "upper": 258.6079,
+        "middle": 247.95,
+        "lower": 237.2921
       },
       "signals": {
         "above_upper": false,
@@ -5328,17 +5328,17 @@
     },
     "2330": {
       "stock_id": "2330",
-      "date": "2026-10-22",
-      "trading_days": 244,
-      "close": 2385.0,
-      "ma20": 2485.25,
-      "ma60": 2423.25,
-      "rsi6": 22.1982,
-      "rsi14": 37.8076,
+      "date": "2026-10-27",
+      "trading_days": 245,
+      "close": 2400.0,
+      "ma20": 2482.25,
+      "ma60": 2425.25,
+      "rsi6": 31.5893,
+      "rsi14": 40.7828,
       "bollinger": {
-        "upper": 2602.2318,
-        "middle": 2485.25,
-        "lower": 2368.2682
+        "upper": 2604.6214,
+        "middle": 2482.25,
+        "lower": 2359.8786
       },
       "signals": {
         "above_upper": false,
@@ -5353,17 +5353,17 @@
     },
     "2454": {
       "stock_id": "2454",
-      "date": "2026-10-22",
-      "trading_days": 244,
-      "close": 4010.0,
-      "ma20": 4678.25,
-      "ma60": 4297.0,
-      "rsi6": 16.7104,
-      "rsi14": 33.8577,
+      "date": "2026-10-27",
+      "trading_days": 245,
+      "close": 3960.0,
+      "ma20": 4617.25,
+      "ma60": 4307.75,
+      "rsi6": 15.1631,
+      "rsi14": 32.7369,
       "bollinger": {
-        "upper": 5481.6881,
-        "middle": 4678.25,
-        "lower": 3874.8119
+        "upper": 5443.9632,
+        "middle": 4617.25,
+        "lower": 3790.5368
       },
       "signals": {
         "above_upper": false,
