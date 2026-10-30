@@ -18,6 +18,12 @@
       "close": 65.5,
       "volume_shares": 43798.0,
       "turnover_twd": 2822140.0
+    },
+    {
+      "date": "2026-10-29",
+      "close": 65.5,
+      "volume_shares": 2000.0,
+      "turnover_twd": 131000.0
     }
   ]
 }
